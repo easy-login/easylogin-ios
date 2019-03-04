@@ -1,0 +1,1 @@
+EasyLogin Swift SDK
