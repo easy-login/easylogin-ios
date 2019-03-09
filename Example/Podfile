@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EasyLoginSDK_Example' do
+    pod 'EasyLoginSDK', :path => '../'
+
+  target 'EasyLoginSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

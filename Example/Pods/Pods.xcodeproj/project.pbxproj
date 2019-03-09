@@ -1,0 +1,1504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00FA5F2F15EA1709C30908B91AF56A34 /* PostRevokeTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FF084159484154DA56FF54196F1103 /* PostRevokeTokenRequest.swift */; };
+		025EE445540093A6CBEF625D95E847F4 /* CodingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D49026B359CC3B5859FD5395D38E96 /* CodingExtension.swift */; };
+		0377A0A59F8B2B1A1354DC6DA2B22038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BEDD19E689991A21548EFAE8640DF8E /* Assets.xcassets */; };
+		04F255404AF3790763E1C90182B40AF5 /* AuthResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCA1B06C2E00B4BE166BA94D167F987 /* AuthResult.swift */; };
+		08011614F87B85A358374607999B044A /* RSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7008A7E640822EFCA1F6F045AD9EFD76 /* RSA.swift */; };
+		080F26C5361F31C502AEB010F0EBF16F /* GetApproversInGroupRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76CC6033EF14E02F07AD915725BA7D5 /* GetApproversInGroupRequest.swift */; };
+		0CA0F9B531B32745C8B9740FAE995B5D /* TemplateImageCarouselPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1D9B5BE7AF5FFCFF92E2F2C2B2CFF1 /* TemplateImageCarouselPayload.swift */; };
+		0CEADFFF151B9FC2823C4D1654E6FE43 /* EasyLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703298B0305E515A9563DC828B353D5 /* EasyLogin.swift */; };
+		0E1A26DFF6A81041C76DD1E55CA5B38B /* TemplateMessagePayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77679F43E5C2CA137AF3307B1863BCA /* TemplateMessagePayload.swift */; };
+		0EA1E5C6ACA89528707CF76BFC1A1B95 /* LineAuthHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8050B8C218D71C9257A242503F21AF /* LineAuthHandler.swift */; };
+		116326BFD101D84F13F0F5B059536861 /* TemplateMessageProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26072C23C8A44449EF226FA3C45D4A6F /* TemplateMessageProperties.swift */; };
+		134A7ADB3499F2D84BCAC28ECD9EB5ED /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DB1D0281194BBC02A9A550768274EE /* Delegate.swift */; };
+		14F310490BAB30E44DFE0FD2A6313943 /* AccessTokenVerifyResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F67F1BA19B3F8721F223B90E0C7B1B /* AccessTokenVerifyResult.swift */; };
+		173A325A8F47300C8C5C993253B5FE12 /* LineSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD88078D5D52A2BC162566E5A3E5D558 /* LineSDK.framework */; };
+		17E6A3C6E78452A0D0119CFF15C1F758 /* LineSDKSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D073792692597F42C5C9A864532DB4E1 /* LineSDKSwift-dummy.m */; };
+		187360F7FF470E127C040DBDC5A21FA0 /* JWTHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D4B54997B444D5232F484A3B618B17 /* JWTHelpers.swift */; };
+		194056C841BD0ECF73CB4126E83E1008 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9222EEF5B5BF0A40CFE5C85AC0D4479B /* Result.swift */; };
+		1AD0F5A95F244BB812F0E663D529738E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0D52CC3B2DAF5B22EF609DB6C07E53 /* Foundation.framework */; };
+		1BECCA8B9309A0381A7D9CF7AB719E88 /* GetVerifyTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA560948962E3563967085B96AEFBB1 /* GetVerifyTokenRequest.swift */; };
+		1E0E5D7A315A92B62DD7C560A4D457FC /* LocationMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F2A2839A676D7FE4854079D91243B9 /* LocationMessage.swift */; };
+		1E16198104855BAA8DEFDCFE0F32B0DE /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B11F5C4E5AC3BF019B8101CAB96D157 /* Result.swift */; };
+		1E2B20309D97F13C23B873703D386C91 /* FlexFillerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6934B27B211B073C65F3E99248750BBE /* FlexFillerComponent.swift */; };
+		1EED3AD9328B3E2770F60EA966EBC155 /* FlexSeparatorComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC77FD2A47F17E77E17CC2BBD71F7315 /* FlexSeparatorComponent.swift */; };
+		20CA0B22BCD297CBAC3F037D75267467 /* ImageMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B0A557C73ED6E2F1006805420845DD /* ImageMessage.swift */; };
+		214F96DC3502EE97D72A76884A7FD1C0 /* AuthDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447DDD937224CBA44659B5259B2FE157 /* AuthDelegate.swift */; };
+		21DB1A3D686DFA5D8C406DF84004F1F8 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A5815ADB17CDC9D4586D4EDFFFDB95 /* Session.swift */; };
+		2384753EA020F9E9782C6198E71216CF /* CallbackQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6C14E4B2530EDFC3A59FA5F2BCF3B /* CallbackQueue.swift */; };
+		23F1DB7BE0452058B9361FB81225CB64 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A021E6350738E95D21452350B28C065C /* API.swift */; };
+		2438E1892780C173C2FF2B538955106D /* GetUserProfileRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9C75E4342A918C6621F28E2E4A09F /* GetUserProfileRequest.swift */; };
+		29BB84FFA1A0F97F0CEFCA00F4DE6EE7 /* NotificationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88C6DD08BF771C794B5C963FEA53880 /* NotificationToken.swift */; };
+		2A5C264A2D32F818F74C088C0B9897DE /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1BCDC971680C682FC7BC0532BB6788 /* API.swift */; };
+		2B7808F7A895718E575D12B440D7CE03 /* ActivateAuthorizedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE120DED75E0AC7D1040CF0187B88C03 /* ActivateAuthorizedResponse.swift */; };
+		2BAACAA461BAD498D8A3CF3DBA20AC42 /* ParametersAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944D448D576F0185EAAD5624770D45A9 /* ParametersAdapter.swift */; };
+		2F0ECBC61C131792D403309DF1F9CFD0 /* AbstractAuthResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8444B2F759E98BBD96AA1E841BCC6D /* AbstractAuthResult.swift */; };
+		2FDA3E2A77731AEF7CC63D0CFCFBB56D /* PostRefreshTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053095CECA0B55739F59B4B3293BF467 /* PostRefreshTokenRequest.swift */; };
+		32A3029D28B83CC9F909F2485ADE3EBC /* LineSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B10A95B86990246707289936694B54 /* LineSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32B3CD868545AD9DDB83F2F50BE15BA8 /* FlexCarouselContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F895537983DD881556D55E198F1479C8 /* FlexCarouselContainer.swift */; };
+		3529C6EAFB6C6EE6BDFAB5012D571380 /* LoginPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D05E0AA06B9DA79F3472E759BFA7CD4 /* LoginPermission.swift */; };
+		3B15149C6C5878921FEC4805D3D0BC17 /* ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F80F87C3A3547A8F877D9DF0716E6 /* ServiceModel.swift */; };
+		3B1F2B2421198A0793BD58AD52011F2D /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = C126C761055B9505B59BC8FC2459C7D5 /* AccessToken.swift */; };
+		3D814D2A766E530BBD74A455798D9961 /* EasyLoginImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF05D8F5A0DD1CA80D9CD59D13CF1141 /* EasyLoginImpl.swift */; };
+		3F2E0EA86EAB10056B53CC8613ECCDAF /* AbstractAuthHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505CBCF957D5963732F5D4E07DC25795 /* AbstractAuthHandler.swift */; };
+		43EE2E88331059172DF96D8DDA3ADE25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0D52CC3B2DAF5B22EF609DB6C07E53 /* Foundation.framework */; };
+		442858A3CD8BA904E68FC326CDFC7A38 /* RequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446F3093858B6E58CA20EE5E69D57B78 /* RequestAdapter.swift */; };
+		44F8D039150C9D931EEA85A0DCCAF4A6 /* InitAuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498B14C90F994CB68E027187FB19FB1B /* InitAuthResponse.swift */; };
+		4575DB6AC08B3C1557E10E91200C791E /* TemplateMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D44C8E2D870DDFBE5498E2ACFEA83B /* TemplateMessage.swift */; };
+		45D86777458A1BFF357553FFB1E6A0D1 /* LineSDKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278D4813E340AD3B8727B58B10DF2F2 /* LineSDKError.swift */; };
+		48BE22F6B27D11D594B7404587C11AB2 /* ActiveAuthorizeProfileRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459D203E96C0DB63F2DB77F9F5D48652 /* ActiveAuthorizeProfileRequest.swift */; };
+		48E70DD48B2168415B762982C05DD6DD /* EasyLoginSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D8E0180A6BC3C4AEE5C5607981CEC2 /* EasyLoginSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49EA4EEE48A382F28AC4BD3A3C6CFD63 /* ProviderAuthHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DA566937838179D7FB2AFF8058D55 /* ProviderAuthHandler.swift */; };
+		4A0B5CA9A1C061DB5673E865EE0F4926 /* FlexMessageProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A2ECE9892F7D499C2125A15E0D4F96 /* FlexMessageProperties.swift */; };
+		4D4D91A06BD460B509BF46D672B23C5A /* GetDiscoveryDocumentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3876470C34C916C724602C26B727EC6E /* GetDiscoveryDocumentRequest.swift */; };
+		4FF52ACA2FDD508F562F8A36014161C1 /* Pods-EasyLoginSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DE0EC0E864C40AE8F641525C243F25 /* Pods-EasyLoginSDK_Tests-dummy.m */; };
+		50F94F966997D1A9207C1325E762CF08 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B4E925965E0F266C08475480E78B4A /* User.swift */; };
+		5175577B219692F796D870666EF6D3C3 /* Pods-EasyLoginSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2122A82CABACFC864EB00696FD581FD /* Pods-EasyLoginSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53DC4E2668463AE539B5119B08F004E4 /* MessageProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992E86E24A597B4EABF6A5C7A06D2831 /* MessageProtocols.swift */; };
+		572108614048D5893DA287A065CC7152 /* ECDSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FE00BDA0EA919A989A47F278FC83AC /* ECDSA.swift */; };
+		5722C2C1844FC7E7D686A729759DF62F /* LineAuthResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DEACEC149B2AB1355FD31841AB3E93 /* LineAuthResult.swift */; };
+		591761A2D6E059D10F1B7CBF9544A737 /* VerifyTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5662897A0849F1BFF3F77C63A33DBC71 /* VerifyTokenRequest.swift */; };
+		5A08B12DC1B14CEAB30AC95199C35B06 /* FlexMessageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11D3A6B5BB88AE2F89C25BC3CEABD19 /* FlexMessageContainer.swift */; };
+		5AAAA72FC116BA802CCD5A8048E897BC /* JWKSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEF86FF8B930DED46449DB0B4188DE5 /* JWKSet.swift */; };
+		60284C3F6AD930126C18C1666410C18C /* CryptoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686B6939F73A58B3D98DF3F82C8DC619 /* CryptoData.swift */; };
+		6269C162AB07982B46D4B0D4DA5CFC8E /* ResultUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAFAC6804E49C4086F192A11D7398CF /* ResultUtils.swift */; };
+		627F5B4FEF3E7774417DB65CA0C44197 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4760E47103E344A9F28DF37FB4D588D8 /* UserProfile.swift */; };
+		661481B85B65D00912731B5063387220 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F1A0107C8E162C9112212CF1B1900D /* Group.swift */; };
+		66DAECA8A91DA327220700C5758DFB62 /* FlexMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDB1E0C42B444955E39B603213FF8D9 /* FlexMessage.swift */; };
+		69B75711D6D2B709A71DB39F97F23158 /* PostSendMessagesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C507C133707D0DF35B4221BADAF3DF /* PostSendMessagesRequest.swift */; };
+		6DF8103D905D5E63FCE02106F7399C32 /* LoginProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B555F78133B1E7A4ADE14D6876E60DBA /* LoginProcess.swift */; };
+		6F9B75FCC01B340A9C9E6088BAA49953 /* FlexBoxComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C55F1806C6557589114C31DABA2018F /* FlexBoxComponent.swift */; };
+		7144EB934428565ADB0E3A2E44CD5C08 /* EasyLoginConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6289747DB9D246096270D0910A1DD94D /* EasyLoginConfig.swift */; };
+		7552E27488A6C6FC7BB6DD321D7527C9 /* JWA.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8ED6D1917E17128ABA24EBE5CC0982 /* JWA.swift */; };
+		7C13F04276E383CC4D3EFCC424145DA2 /* EasyLoginSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7466A8E50987B36C15F9CCEBAC2CDF8A /* EasyLoginSDK-dummy.m */; };
+		7DFD096A86867DF5C9FB011B9E46736F /* ResponsePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3D8E063CA054D4B243582BA3A2D3C7 /* ResponsePipeline.swift */; };
+		81215610DE0CAB815E213B5DFEFFC789 /* EasyLoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED23F0D4A465493619CEDD3F658DF85 /* EasyLoginError.swift */; };
+		844AC88C80B09303C543ED4EE874F0A7 /* TextMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99DF74CCE0075ED57757B76821415E /* TextMessage.swift */; };
+		856BE39548D1AB3BEDE28F516E7F98EE /* GetApproversInFriendsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E8602A64F1570B233BC97758ED6EE9 /* GetApproversInFriendsRequest.swift */; };
+		85E076F918F5FED5B6FE08C32784D3B7 /* FlexTextComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C579F0B97E40DE661F40B2E089846 /* FlexTextComponent.swift */; };
+		89B408E62B7F0D99C231A8627C5EB7D1 /* FlexSpacerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9522A4B6B4B05ABEA6EECC61AE85F6 /* FlexSpacerComponent.swift */; };
+		89E35706BE62A4A8CA0A51FE2CEB92FD /* LineAccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F75FA4977CE7D33647CFD5CD790D351 /* LineAccessToken.swift */; };
+		8A669DB1A4323E753540295634871D83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0D52CC3B2DAF5B22EF609DB6C07E53 /* Foundation.framework */; };
+		8C8C2A182C29DED5C9C220E920003B07 /* CryptoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BB3799210B921B9B229B14DA9E65FC /* CryptoKey.swift */; };
+		8F911E8C69F608E955A32B272295874B /* URLSession+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EFDA17020A7E50DE2FB751EBEC87E3 /* URLSession+Ext.swift */; };
+		8FF85934EB67752E0C9A73728D2BFC78 /* OneTimePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9596AA4BC9C6DFC23986D2FC54D551 /* OneTimePassword.swift */; };
+		9105A8DE2A24399B069A55765FE78682 /* LoginManagerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DF73B3CD59235077E1374452451F33 /* LoginManagerOptions.swift */; };
+		9227D4EF96CB825CD2B2F7B9F18654C5 /* GetAuthorizeProfileRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1E527B00490D02ECFFE1EFEA6E988A /* GetAuthorizeProfileRequest.swift */; };
+		9494F8DDA32F59C136F700E20081AF24 /* FlexMessageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CBC1901EF3903E8C484796DB93F0E8 /* FlexMessageComponent.swift */; };
+		9A71F464E8DF1777320183BA2C9F84B3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FFB28E6E97AFB98E390550A15D8273 /* Config.swift */; };
+		9D17218AFDC45317C16298554D8AA49C /* CryptoHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763E731847CE777D8C20B129EB133899 /* CryptoHelpers.swift */; };
+		9DE2EA8FA28DA96F716EC16CF5AE1E93 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5279AD392694FFC47AC028755A761FBB /* LoginButton.swift */; };
+		9F1792EAF96FD6E11BBF3FBB4D50E367 /* CryptoAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4C69B0110AE9E71E5C5F2DE3C1CD4 /* CryptoAlgorithm.swift */; };
+		A2498DC64F995B50AADC15C6CB5A0AE9 /* Pods-EasyLoginSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1713031808412B38BD14FDAB21EFD725 /* Pods-EasyLoginSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A610CE5AC46FB590E009D8701B6E8BCF /* FlexBubbleContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5303B066FAB02A892CD56E774BF0F0CF /* FlexBubbleContainer.swift */; };
+		A6A251872288784760FDA27CF672903A /* CryptoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC2B980430E9871D20F95D172263098 /* CryptoError.swift */; };
+		A6D9F52DA56BDC4C995C9C4CC1CB2FBE /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FC64F78360B15F34C6326C03668AFC /* Message.swift */; };
+		A6F5921E247726FE3DF10FF7A4997666 /* FlexButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65224E7E3F116827FBA3CDF4B5B991D6 /* FlexButtonComponent.swift */; };
+		A704F372FB0C5E89D59AF1A0F3675BD1 /* GetBotFriendshipStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECE9B1D6E3F815A4A81484C6DEBB5A1 /* GetBotFriendshipStatus.swift */; };
+		A7E558FFC928580E85F24B745E1D265F /* FlexImageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B7ECA60C97034E6F07FDD8F3E2BE4E /* FlexImageComponent.swift */; };
+		ABAA645C62FD117096CB1279628C3319 /* GetGroupsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8311F2F1D237CF65A906F0DD0A012884 /* GetGroupsRequest.swift */; };
+		AC0577723906B47995BD7CE796DF0BCB /* TemplateConfirmPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1478DAAC7502DE2EB9956F2D8D01E4C9 /* TemplateConfirmPayload.swift */; };
+		AC65086E7053F0948C7BB1AFC2AB404A /* LoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE4CA4AB06746F2D1A80F254D874E09 /* LoginResult.swift */; };
+		AC65D3646F220960F408D7E3D67A6E13 /* AudioMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D975AFD479151C0AF2C335341D4D18E /* AudioMessage.swift */; };
+		AD295A32C4FBDF2E7800D7229616496C /* EasyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC677C3B3B1F25F2221BE7A6ADFEF5 /* EasyProfile.swift */; };
+		B11AC701397DA6E55AF6BD3E0B690E31 /* MessageAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4072BB5E7686F63820F532F7115996E2 /* MessageAction.swift */; };
+		B280B102B65292A0E384482C2F1C4E49 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C60115DBCB8BAC271D0D4AC91EFC5EC /* Constant.swift */; };
+		B685D2113D7798C8D88DECE57B953058 /* GetJWKSetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2285DEA92CDCF515BDC48E8D6070BE /* GetJWKSetRequest.swift */; };
+		B846574316B3E92DEC398B0DC0A8AE30 /* JWTCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05657AFA483169D26D3D4DC7E1456F6A /* JWTCoder.swift */; };
+		B8E605033F4469EE34F0787D8F78B300 /* AuthListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D3F635934F453C2153627A2CD548BE /* AuthListener.swift */; };
+		B94E018C8BDEE81AA0E357E256ED63B3 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2164F99CFC9047EC2BE0EC9F71FA095A /* Helpers.swift */; };
+		BAC533B7248931DC9E63CB03ACB6D0D1 /* LoginConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD86682744DD504C611E1FECAFACE0B1 /* LoginConfiguration.swift */; };
+		BC1C1B6C0F4FF18A09833F40FDAA93D0 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C10415293CF07D9268C6BA19856055D /* LoginManager.swift */; };
+		BCA8728A4444F29CB159E8B5B4755C22 /* JWK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AF76E194C683DEB316F05575A43E90 /* JWK.swift */; };
+		BE37AB5F38BAAB26BAF669EAC4A87822 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C844673A3B69B65E9676ED1D3BEC8B8 /* APIError.swift */; };
+		BFC31E0D839B2F0F328D5BB8DFBE05EB /* AuthSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F623F7E9326920832E53CECC3C00C8 /* AuthSession.swift */; };
+		C0B666C2775442EE67FC00DE02C09895 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8ABE2AD8B5BEBD359F32FE88B86DC3 /* URLs.swift */; };
+		C2255D59B67F0C7C8BFCDD39B437DA0D /* Pods-EasyLoginSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1BFD5E1680E6E31B5A58590500C03F /* Pods-EasyLoginSDK_Example-dummy.m */; };
+		C4282D4E6368D832F0FD04B419B634B6 /* TemplateButtonsPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AF67CFA48C0AF6BD27634F39AAF734 /* TemplateButtonsPayload.swift */; };
+		C8F367EBF66E34BBF6802C495F7159F0 /* LoginProcessURLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAC4567837743E3DD75CC5AD89064C4 /* LoginProcessURLResponse.swift */; };
+		CA1DDCACEDB43A20E0B238FB1189A485 /* PostOTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1456A2785C2FE69E573ED65A812AAEB /* PostOTPRequest.swift */; };
+		CC0FC1CFC3ACC3893A0139F77734F156 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F6100B51F09D02A5467F11BB8E95E /* Channel.swift */; };
+		D171AC1BEB697B242B7B17F3F1BBFD87 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A090C521F50F9D837150AE191D520E /* Unit.swift */; };
+		D21D6523395897DB9013A931880560D4 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6EF0A85D12A7EC6B8EF1AD4508D85D09 /* Resource.bundle */; };
+		D4CA2D0458FEC997B93D72094525E457 /* AuthorizeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44170890ABB156787604A8DA6E37DB48 /* AuthorizeRequest.swift */; };
+		D4CF629A2095AC2CF843409797D7B1CF /* MessageSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1ED83DF6E3F1C5CFA2D9C2CED462C /* MessageSender.swift */; };
+		D62B1BFC49726C2B44ADB8BF7F2F0965 /* API+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0F4CC01BA9FAA01F6A43A3B90A0322 /* API+Internal.swift */; };
+		D6E47219DCD933FD2A31A54E364C709A /* TemplateCarouselPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E75C21985809A3B63DBFA901C370E89 /* TemplateCarouselPayload.swift */; };
+		D759ABF5E0DA9E13320DBD0DD09D4DA5 /* AccessTokenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1F8DC42B01315FD3B019D1DA4099C5 /* AccessTokenStore.swift */; };
+		D8A40080FF536AC71B628C73CF884BE2 /* EasyAuthToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = B718CFFE5949A7C8336544CCDFF0F44F /* EasyAuthToken.swift */; };
+		D9F2D28A392556E5DAB34F7404DBC534 /* VideoMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA867D11DB3FC9B86DEBF4F184278EC /* VideoMessage.swift */; };
+		DCA2C4E243F35DCB2087C3380A9B62E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C0D52CC3B2DAF5B22EF609DB6C07E53 /* Foundation.framework */; };
+		DE1E0B729ED356C0B74201F609887F9F /* LineSDKSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2F7CDA98D9AC978610BBBAAEA883E5E /* LineSDKSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF4FF2274AFBFE53DECCA37ABC6B0392 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311D49AFC0F5E12DB12A6A03C7A8BF61 /* KeychainStore.swift */; };
+		DFE37CBADE7DB05E75F965097097B1BA /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5420F1A45B43DD348DD76A298634ED6A /* Date+Ext.swift */; };
+		E252AF970FA0855F73922A4D2B4A8557 /* GetFriendsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47399DE92A1A5975EBFC3B548D7A387 /* GetFriendsRequest.swift */; };
+		E43C3CD6B21E68776D46CC2AE439EE70 /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A4E41231F55ED840FD65C3A1A2DC4 /* JWT.swift */; };
+		E48544FAFD45F2B4282322326EEE467F /* LineIdToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B877882FFA34188C6FAF70FAD87CA6 /* LineIdToken.swift */; };
+		ECB722AD2286CF19D7EFC77F670B69C4 /* PostExchangeTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67140B309E530248863738A03A2C151 /* PostExchangeTokenRequest.swift */; };
+		EF2A5F5F02366E7E277879C7066E606E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8775A5A1DCBED29149F04BF02A38D924 /* Request.swift */; };
+		F40604915F61BCB3FAD3074B2CE10D8A /* ProviderIdToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22245B2BD5368680FF3B76558C78714 /* ProviderIdToken.swift */; };
+		F47A155E8A24209EC8F3811E46D3AA63 /* CodeVerifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD176FE0F2E9421CB6CA326CD62364D /* CodeVerifier.swift */; };
+		F6690E0B15004FE728FDD183B2A46421 /* EasyLoginSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 79CB51E9585824B8ECA089B4A137BB24 /* EasyLoginSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7C17D5DD3EC34544E745154252AD639 /* ProviderAccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B71089E33B55D9604386A61A9F065B /* ProviderAccessToken.swift */; };
+		F7CA32E4266540DA982D68BFF465A741 /* PostMultisendMessagesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACB4A28367D0B4C9D1C46273119A6BE /* PostMultisendMessagesRequest.swift */; };
+		F9D8E63CFFD6DC3F1FC32D528885280B /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2BE6C71F1AE8D700C49A68F1AF8B9C /* HexColor.swift */; };
+		FD40279C6F0F55F1977FDD3D04C3DB16 /* FlexIconComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CDA0207BFC4795CA066B4D5E62B4F7 /* FlexIconComponent.swift */; };
+		FDB56EA24DF4F2847C31BD5DB7078385 /* EasyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF18260E4716E51E2BAF84A5AA5F6F6 /* EasyAPI.swift */; };
+		FECAFB757CC69E8C55BD9AA31218CE91 /* FlexBlockStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654290F0958ABFA6D95F7462E43354CD /* FlexBlockStyle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		190FBD61DBAC8B3A8EFE24EF9B6A0670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564C18F2A81ED61531A32DB4FE240D08;
+			remoteInfo = LineSDKSwift;
+		};
+		365C08A9CA7A4DE31E7BC488491BE88D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3AF19CC8311C9199C83AEFC3F3380B9;
+			remoteInfo = EasyLoginSDK;
+		};
+		52A03EF2DD3E65F086B12E130BF2AF8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564C18F2A81ED61531A32DB4FE240D08;
+			remoteInfo = LineSDKSwift;
+		};
+		E82EA95B202AD7C253F3D08F355A6D0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1620BBD7151C7BE6372F660104732A31;
+			remoteInfo = "Pods-EasyLoginSDK_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0403296A0F52253FD8C3A5FDF4A138EE /* EasyLoginSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = EasyLoginSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		051B5BFDDE0F4DC45911957B0CA17B76 /* Pods-EasyLoginSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyLoginSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		053095CECA0B55739F59B4B3293BF467 /* PostRefreshTokenRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostRefreshTokenRequest.swift; path = LineSDK/LineSDK/Login/Request/PostRefreshTokenRequest.swift; sourceTree = "<group>"; };
+		05657AFA483169D26D3D4DC7E1456F6A /* JWTCoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWTCoder.swift; path = LineSDK/LineSDK/Crypto/JWT/JWTCoder.swift; sourceTree = "<group>"; };
+		08EFDA17020A7E50DE2FB751EBEC87E3 /* URLSession+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSession+Ext.swift"; path = "EasyLoginSDK/Classes/URLSession+Ext.swift"; sourceTree = "<group>"; };
+		0A308142BD570927E04F8890D7291D87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0A5C579F0B97E40DE661F40B2E089846 /* FlexTextComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexTextComponent.swift; path = LineSDK/LineSDK/Messaging/Model/Flex/Component/FlexTextComponent.swift; sourceTree = "<group>"; };
+		0B11F5C4E5AC3BF019B8101CAB96D157 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = EasyLoginSDK/Classes/Result.swift; sourceTree = "<group>"; };
+		0C10415293CF07D9268C6BA19856055D /* LoginManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginManager.swift; path = LineSDK/LineSDK/Login/LoginManager.swift; sourceTree = "<group>"; };
+		0EAFAC6804E49C4086F192A11D7398CF /* ResultUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultUtils.swift; path = LineSDK/LineSDK/Utils/ResultUtils.swift; sourceTree = "<group>"; };
+		0F380B68F11FF6CFC568F93C29FF6D1F /* EasyLoginSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyLoginSDK.xcconfig; sourceTree = "<group>"; };
+		12CDA0207BFC4795CA066B4D5E62B4F7 /* FlexIconComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexIconComponent.swift; path = LineSDK/LineSDK/Messaging/Model/Flex/Component/FlexIconComponent.swift; sourceTree = "<group>"; };
+		1478DAAC7502DE2EB9956F2D8D01E4C9 /* TemplateConfirmPayload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TemplateConfirmPayload.swift; path = LineSDK/LineSDK/Messaging/Model/Template/Payloads/TemplateConfirmPayload.swift; sourceTree = "<group>"; };
+		14B9C75E4342A918C6621F28E2E4A09F /* GetUserProfileRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetUserProfileRequest.swift; path = LineSDK/LineSDK/Login/Request/GetUserProfileRequest.swift; sourceTree = "<group>"; };
+		1713031808412B38BD14FDAB21EFD725 /* Pods-EasyLoginSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyLoginSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		181C81236414DFB2407F437377ECDD29 /* EasyLoginSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EasyLoginSDK.framework; path = EasyLoginSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		186DA566937838179D7FB2AFF8058D55 /* ProviderAuthHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProviderAuthHandler.swift; path = EasyLoginSDK/Classes/ProviderAuthHandler.swift; sourceTree = "<group>"; };
+		195AC3221E09273FD7ED710343810746 /* LineSDKSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LineSDKSwift.xcconfig; sourceTree = "<group>"; };
+		1A1F8DC42B01315FD3B019D1DA4099C5 /* AccessTokenStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessTokenStore.swift; path = LineSDK/LineSDK/Login/Model/AccessTokenStore.swift; sourceTree = "<group>"; };
+		1BD176FE0F2E9421CB6CA326CD62364D /* CodeVerifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodeVerifier.swift; path = EasyLoginSDK/Classes/CodeVerifier.swift; sourceTree = "<group>"; };
+		1C55F1806C6557589114C31DABA2018F /* FlexBoxComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexBoxComponent.swift; path = LineSDK/LineSDK/Messaging/Model/Flex/Component/FlexBoxComponent.swift; sourceTree = "<group>"; };
+		1D9522A4B6B4B05ABEA6EECC61AE85F6 /* FlexSpacerComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexSpacerComponent.swift; path = LineSDK/LineSDK/Messaging/Model/Flex/Component/FlexSpacerComponent.swift; sourceTree = "<group>"; };
+		1EF7034DDFD0C6DF9A94C7F5395280E9 /* Pods-EasyLoginSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyLoginSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1FCA1B06C2E00B4BE166BA94D167F987 /* AuthResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthResult.swift; path = EasyLoginSDK/Classes/AuthResult.swift; sourceTree = "<group>"; };
+		1FD4C69B0110AE9E71E5C5F2DE3C1CD4 /* CryptoAlgorithm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoAlgorithm.swift; path = LineSDK/LineSDK/Crypto/CryptoAlgorithm.swift; sourceTree = "<group>"; };
+		2164F99CFC9047EC2BE0EC9F71FA095A /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = LineSDK/LineSDK/Utils/Helpers.swift; sourceTree = "<group>"; };
+		23D44C8E2D870DDFBE5498E2ACFEA83B /* TemplateMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TemplateMessage.swift; path = LineSDK/LineSDK/Messaging/Model/TemplateMessage.swift; sourceTree = "<group>"; };
+		26072C23C8A44449EF226FA3C45D4A6F /* TemplateMessageProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TemplateMessageProperties.swift; path = LineSDK/LineSDK/Messaging/Model/Template/Payloads/TemplateMessageProperties.swift; sourceTree = "<group>"; };
+		26A090C521F50F9D837150AE191D520E /* Unit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Unit.swift; path = LineSDK/LineSDK/Networking/Model/Unit.swift; sourceTree = "<group>"; };
+		2C844673A3B69B65E9676ED1D3BEC8B8 /* APIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APIError.swift; path = LineSDK/LineSDK/Networking/Model/APIError.swift; sourceTree = "<group>"; };
+		2C8ABE2AD8B5BEBD359F32FE88B86DC3 /* URLs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLs.swift; path = LineSDK/LineSDK/Utils/URLs.swift; sourceTree = "<group>"; };
+		2E9596AA4BC9C6DFC23986D2FC54D551 /* OneTimePassword.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OneTimePassword.swift; path = LineSDK/LineSDK/Login/Model/OneTimePassword.swift; sourceTree = "<group>"; };
+		2ECE9B1D6E3F815A4A81484C6DEBB5A1 /* GetBotFriendshipStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetBotFriendshipStatus.swift; path = LineSDK/LineSDK/Friendship/Request/GetBotFriendshipStatus.swift; sourceTree = "<group>"; };
+		30AF67CFA48C0AF6BD27634F39AAF734 /* TemplateButtonsPayload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TemplateButtonsPayload.swift; path = LineSDK/LineSDK/Messaging/Model/Template/Payloads/TemplateButtonsPayload.swift; sourceTree = "<group>"; };
+		311D49AFC0F5E12DB12A6A03C7A8BF61 /* KeychainStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainStore.swift; path = LineSDK/LineSDK/Utils/KeychainStore.swift; sourceTree = "<group>"; };
+		3278D4813E340AD3B8727B58B10DF2F2 /* LineSDKError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineSDKError.swift; path = LineSDK/LineSDK/General/LineSDKError.swift; sourceTree = "<group>"; };
+		3876470C34C916C724602C26B727EC6E /* GetDiscoveryDocumentRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetDiscoveryDocumentRequest.swift; path = LineSDK/LineSDK/Crypto/GetDiscoveryDocumentRequest.swift; sourceTree = "<group>"; };
+		4072BB5E7686F63820F532F7115996E2 /* MessageAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageAction.swift; path = LineSDK/LineSDK/Messaging/Model/Actions/MessageAction.swift; sourceTree = "<group>"; };
+		44170890ABB156787604A8DA6E37DB48 /* AuthorizeRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthorizeRequest.swift; path = EasyLoginSDK/Classes/AuthorizeRequest.swift; sourceTree = "<group>"; };
+		446F3093858B6E58CA20EE5E69D57B78 /* RequestAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestAdapter.swift; path = LineSDK/LineSDK/Networking/Client/RequestAdapter.swift; sourceTree = "<group>"; };
+		447DDD937224CBA44659B5259B2FE157 /* AuthDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthDelegate.swift; path = EasyLoginSDK/Classes/AuthDelegate.swift; sourceTree = "<group>"; };
+		459D203E96C0DB63F2DB77F9F5D48652 /* ActiveAuthorizeProfileRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActiveAuthorizeProfileRequest.swift; path = EasyLoginSDK/Classes/ActiveAuthorizeProfileRequest.swift; sourceTree = "<group>"; };
+		46DEACEC149B2AB1355FD31841AB3E93 /* LineAuthResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineAuthResult.swift; path = EasyLoginSDK/Classes/LineAuthResult.swift; sourceTree = "<group>"; };
+		4703298B0305E515A9563DC828B353D5 /* EasyLogin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyLogin.swift; path = EasyLoginSDK/Classes/EasyLogin.swift; sourceTree = "<group>"; };
+		4760E47103E344A9F28DF37FB4D588D8 /* UserProfile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserProfile.swift; path = LineSDK/LineSDK/Login/Model/UserProfile.swift; sourceTree = "<group>"; };
+		47C507C133707D0DF35B4221BADAF3DF /* PostSendMessagesRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostSendMessagesRequest.swift; path = LineSDK/LineSDK/Messaging/Request/PostSendMessagesRequest.swift; sourceTree = "<group>"; };
+		47D49026B359CC3B5859FD5395D38E96 /* CodingExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodingExtension.swift; path = LineSDK/LineSDK/Networking/Model/CustomizeCoding/CodingExtension.swift; sourceTree = "<group>"; };
+		48A360121D1D3727D6014E82553D3A0A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		492A82AC1076C8E67ACA1213A2EC7BC5 /* Pods-EasyLoginSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyLoginSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		498B14C90F994CB68E027187FB19FB1B /* InitAuthResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InitAuthResponse.swift; path = EasyLoginSDK/Classes/InitAuthResponse.swift; sourceTree = "<group>"; };
+		4AF18260E4716E51E2BAF84A5AA5F6F6 /* EasyAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyAPI.swift; path = EasyLoginSDK/Classes/EasyAPI.swift; sourceTree = "<group>"; };
+		4B1E527B00490D02ECFFE1EFEA6E988A /* GetAuthorizeProfileRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetAuthorizeProfileRequest.swift; path = EasyLoginSDK/Classes/GetAuthorizeProfileRequest.swift; sourceTree = "<group>"; };
+		4DD137EEE40BE75BECEBED11F2F5DFB1 /* Pods-EasyLoginSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyLoginSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4F75FA4977CE7D33647CFD5CD790D351 /* LineAccessToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineAccessToken.swift; path = EasyLoginSDK/Classes/LineAccessToken.swift; sourceTree = "<group>"; };
+		505CBCF957D5963732F5D4E07DC25795 /* AbstractAuthHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AbstractAuthHandler.swift; path = EasyLoginSDK/Classes/AbstractAuthHandler.swift; sourceTree = "<group>"; };
+		50B10A95B86990246707289936694B54 /* LineSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LineSDK.h; path = LineSDK/LineSDK/LineSDK.h; sourceTree = "<group>"; };
+		5279AD392694FFC47AC028755A761FBB /* LoginButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginButton.swift; path = LineSDK/LineSDK/Login/LoginButton.swift; sourceTree = "<group>"; };
+		5303B066FAB02A892CD56E774BF0F0CF /* FlexBubbleContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexBubbleContainer.swift; path = LineSDK/LineSDK/Messaging/Model/Flex/Container/FlexBubbleContainer.swift; sourceTree = "<group>"; };
+		53FC64F78360B15F34C6326C03668AFC /* Message.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Message.swift; path = LineSDK/LineSDK/Messaging/Model/Message.swift; sourceTree = "<group>"; };
+		5420F1A45B43DD348DD76A298634ED6A /* Date+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Ext.swift"; path = "EasyLoginSDK/Classes/Date+Ext.swift"; sourceTree = "<group>"; };
+		54FF084159484154DA56FF54196F1103 /* PostRevokeTokenRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostRevokeTokenRequest.swift; path = LineSDK/LineSDK/Login/Request/PostRevokeTokenRequest.swift; sourceTree = "<group>"; };
+		5662897A0849F1BFF3F77C63A33DBC71 /* VerifyTokenRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyTokenRequest.swift; path = EasyLoginSDK/Classes/VerifyTokenRequest.swift; sourceTree = "<group>"; };
+		58B7ECA60C97034E6F07FDD8F3E2BE4E /* FlexImageComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexImageComponent.swift; path = LineSDK/LineSDK/Messaging/Model/Flex/Component/FlexImageComponent.swift; sourceTree = "<group>"; };
+		5D05E0AA06B9DA79F3472E759BFA7CD4 /* LoginPermission.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginPermission.swift; path = LineSDK/LineSDK/Login/LoginPermission.swift; sourceTree = "<group>"; };
+		5ED23F0D4A465493619CEDD3F658DF85 /* EasyLoginError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyLoginError.swift; path = EasyLoginSDK/Classes/EasyLoginError.swift; sourceTree = "<group>"; };
+		5F775E29276EBA86C4B5175F2996BB4B /* EasyLoginSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyLoginSDK-prefix.pch"; sourceTree = "<group>"; };
+		6289747DB9D246096270D0910A1DD94D /* EasyLoginConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyLoginConfig.swift; path = EasyLoginSDK/Classes/EasyLoginConfig.swift; sourceTree = "<group>"; };
+		62DF73B3CD59235077E1374452451F33 /* LoginManagerOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginManagerOptions.swift; path = LineSDK/LineSDK/Login/LoginManagerOptions.swift; sourceTree = "<group>"; };
+		65224E7E3F116827FBA3CDF4B5B991D6 /* FlexButtonComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexButtonComponent.swift; path = LineSDK/LineSDK/Messaging/Model/Flex/Component/FlexButtonComponent.swift; sourceTree = "<group>"; };
+		654290F0958ABFA6D95F7462E43354CD /* FlexBlockStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexBlockStyle.swift; path = LineSDK/LineSDK/Messaging/Model/Flex/Style/FlexBlockStyle.swift; sourceTree = "<group>"; };
+		66B4E925965E0F266C08475480E78B4A /* User.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = User.swift; path = LineSDK/LineSDK/Graph/Model/User.swift; sourceTree = "<group>"; };
+		686B6939F73A58B3D98DF3F82C8DC619 /* CryptoData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoData.swift; path = LineSDK/LineSDK/Crypto/CryptoData.swift; sourceTree = "<group>"; };
+		68FE00BDA0EA919A989A47F278FC83AC /* ECDSA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ECDSA.swift; path = LineSDK/LineSDK/Crypto/Algorithms/ECDSA.swift; sourceTree = "<group>"; };
+		6934B27B211B073C65F3E99248750BBE /* FlexFillerComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexFillerComponent.swift; path = LineSDK/LineSDK/Messaging/Model/Flex/Component/FlexFillerComponent.swift; sourceTree = "<group>"; };
+		6A0F4CC01BA9FAA01F6A43A3B90A0322 /* API+Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "API+Internal.swift"; path = "LineSDK/LineSDK/Networking/API+Internal.swift"; sourceTree = "<group>"; };
+		6BAC4567837743E3DD75CC5AD89064C4 /* LoginProcessURLResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginProcessURLResponse.swift; path = LineSDK/LineSDK/Login/LoginProcessURLResponse.swift; sourceTree = "<group>"; };
+		6D975AFD479151C0AF2C335341D4D18E /* AudioMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioMessage.swift; path = LineSDK/LineSDK/Messaging/Model/AudioMessage.swift; sourceTree = "<group>"; };
+		6EF0A85D12A7EC6B8EF1AD4508D85D09 /* Resource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Resource.bundle; path = LineSDK/LineSDK/Resource.bundle; sourceTree = "<group>"; };
+		7008A7E640822EFCA1F6F045AD9EFD76 /* RSA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSA.swift; path = LineSDK/LineSDK/Crypto/Algorithms/RSA.swift; sourceTree = "<group>"; };
+		70CBC1901EF3903E8C484796DB93F0E8 /* FlexMessageComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexMessageComponent.swift; path = LineSDK/LineSDK/Messaging/Model/Flex/Component/FlexMessageComponent.swift; sourceTree = "<group>"; };
+		71DB1D0281194BBC02A9A550768274EE /* Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delegate.swift; path = LineSDK/LineSDK/Utils/Delegate.swift; sourceTree = "<group>"; };
+		7466A8E50987B36C15F9CCEBAC2CDF8A /* EasyLoginSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyLoginSDK-dummy.m"; sourceTree = "<group>"; };
+		74DE0EC0E864C40AE8F641525C243F25 /* Pods-EasyLoginSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyLoginSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		75F623F7E9326920832E53CECC3C00C8 /* AuthSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthSession.swift; path = EasyLoginSDK/Classes/AuthSession.swift; sourceTree = "<group>"; };
+		763E731847CE777D8C20B129EB133899 /* CryptoHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoHelpers.swift; path = LineSDK/LineSDK/Crypto/CryptoHelpers.swift; sourceTree = "<group>"; };
+		76AF76E194C683DEB316F05575A43E90 /* JWK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWK.swift; path = LineSDK/LineSDK/Crypto/JWK/JWK.swift; sourceTree = "<group>"; };
+		79CB51E9585824B8ECA089B4A137BB24 /* EasyLoginSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EasyLoginSDK.h; path = EasyLoginSDK/Classes/EasyLoginSDK.h; sourceTree = "<group>"; };
+		7C1309AB6A337084567A6E3DDA9B45C8 /* Pods-EasyLoginSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EasyLoginSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		7CA867D11DB3FC9B86DEBF4F184278EC /* VideoMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoMessage.swift; path = LineSDK/LineSDK/Messaging/Model/VideoMessage.swift; sourceTree = "<group>"; };
+		7D6B9F6200E87804F28F415F1AE86A4D /* Pods-EasyLoginSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyLoginSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E7F80F87C3A3547A8F877D9DF0716E6 /* ServiceModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceModel.swift; path = EasyLoginSDK/Classes/ServiceModel.swift; sourceTree = "<group>"; };
+		8311F2F1D237CF65A906F0DD0A012884 /* GetGroupsRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetGroupsRequest.swift; path = LineSDK/LineSDK/Graph/Request/GetGroupsRequest.swift; sourceTree = "<group>"; };
+		83FFB28E6E97AFB98E390550A15D8273 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = EasyLoginSDK/Classes/Config.swift; sourceTree = "<group>"; };
+		8775A5A1DCBED29149F04BF02A38D924 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = LineSDK/LineSDK/Networking/Client/Request.swift; sourceTree = "<group>"; };
+		88B877882FFA34188C6FAF70FAD87CA6 /* LineIdToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineIdToken.swift; path = EasyLoginSDK/Classes/LineIdToken.swift; sourceTree = "<group>"; };
+		8A3D8E063CA054D4B243582BA3A2D3C7 /* ResponsePipeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponsePipeline.swift; path = LineSDK/LineSDK/Networking/Client/ResponsePipeline.swift; sourceTree = "<group>"; };
+		8C0D52CC3B2DAF5B22EF609DB6C07E53 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8F1BFD5E1680E6E31B5A58590500C03F /* Pods-EasyLoginSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyLoginSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		8F3228C767132278985DAAE0EB4BEBC3 /* Pods_EasyLoginSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EasyLoginSDK_Tests.framework; path = "Pods-EasyLoginSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FAA90BD77493C83A5AD3A31C530F777 /* Pods-EasyLoginSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyLoginSDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		8FEF86FF8B930DED46449DB0B4188DE5 /* JWKSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWKSet.swift; path = LineSDK/LineSDK/Crypto/JWK/JWKSet.swift; sourceTree = "<group>"; };
+		91D4B54997B444D5232F484A3B618B17 /* JWTHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWTHelpers.swift; path = LineSDK/LineSDK/Crypto/JWT/JWTHelpers.swift; sourceTree = "<group>"; };
+		9222EEF5B5BF0A40CFE5C85AC0D4479B /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = LineSDK/LineSDK/Utils/Result.swift; sourceTree = "<group>"; };
+		92BCE7B2DA3276CE0C6FE763EFEE7182 /* Pods-EasyLoginSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyLoginSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		944D448D576F0185EAAD5624770D45A9 /* ParametersAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParametersAdapter.swift; path = LineSDK/LineSDK/Networking/Client/ParametersAdapter.swift; sourceTree = "<group>"; };
+		959C4A8CDCA239CFFFD5253FBC56E8E1 /* Pods-EasyLoginSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyLoginSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		95A2ECE9892F7D499C2125A15E0D4F96 /* FlexMessageProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexMessageProperties.swift; path = LineSDK/LineSDK/Messaging/Model/Flex/Component/FlexMessageProperties.swift; sourceTree = "<group>"; };
+		95F1A0107C8E162C9112212CF1B1900D /* Group.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Group.swift; path = LineSDK/LineSDK/Graph/Model/Group.swift; sourceTree = "<group>"; };
+		992E86E24A597B4EABF6A5C7A06D2831 /* MessageProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageProtocols.swift; path = LineSDK/LineSDK/Messaging/Model/MessageProtocols.swift; sourceTree = "<group>"; };
+		9BD6C14E4B2530EDFC3A59FA5F2BCF3B /* CallbackQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallbackQueue.swift; path = LineSDK/LineSDK/Utils/CallbackQueue.swift; sourceTree = "<group>"; };
+		9BEDD19E689991A21548EFAE8640DF8E /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = LineSDK/LineSDK/Assets.xcassets; sourceTree = "<group>"; };
+		9BFD72BD0F9EFB198FB814E3ED679256 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C60115DBCB8BAC271D0D4AC91EFC5EC /* Constant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = LineSDK/LineSDK/Utils/Constant.swift; sourceTree = "<group>"; };
+		9D1BCDC971680C682FC7BC0532BB6788 /* API.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = API.swift; path = EasyLoginSDK/Classes/API.swift; sourceTree = "<group>"; };
+		9E75C21985809A3B63DBFA901C370E89 /* TemplateCarouselPayload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TemplateCarouselPayload.swift; path = LineSDK/LineSDK/Messaging/Model/Template/Payloads/TemplateCarouselPayload.swift; sourceTree = "<group>"; };
+		9FE4CA4AB06746F2D1A80F254D874E09 /* LoginResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginResult.swift; path = LineSDK/LineSDK/Login/LoginResult.swift; sourceTree = "<group>"; };
+		A021E6350738E95D21452350B28C065C /* API.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = API.swift; path = LineSDK/LineSDK/Networking/API.swift; sourceTree = "<group>"; };
+		A1456A2785C2FE69E573ED65A812AAEB /* PostOTPRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostOTPRequest.swift; path = LineSDK/LineSDK/Login/Request/PostOTPRequest.swift; sourceTree = "<group>"; };
+		A2F2A2839A676D7FE4854079D91243B9 /* LocationMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationMessage.swift; path = LineSDK/LineSDK/Messaging/Model/LocationMessage.swift; sourceTree = "<group>"; };
+		A47399DE92A1A5975EBFC3B548D7A387 /* GetFriendsRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetFriendsRequest.swift; path = LineSDK/LineSDK/Graph/Request/GetFriendsRequest.swift; sourceTree = "<group>"; };
+		A4F980F42E1957B5F91B398C40698782 /* Pods-EasyLoginSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyLoginSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A77679F43E5C2CA137AF3307B1863BCA /* TemplateMessagePayload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TemplateMessagePayload.swift; path = LineSDK/LineSDK/Messaging/Model/Template/Payloads/TemplateMessagePayload.swift; sourceTree = "<group>"; };
+		AA8ED6D1917E17128ABA24EBE5CC0982 /* JWA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWA.swift; path = LineSDK/LineSDK/Crypto/JWK/JWA.swift; sourceTree = "<group>"; };
+		AAA1ED83DF6E3F1C5CFA2D9C2CED462C /* MessageSender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageSender.swift; path = LineSDK/LineSDK/Messaging/Model/MessageSender.swift; sourceTree = "<group>"; };
+		ABC2B980430E9871D20F95D172263098 /* CryptoError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoError.swift; path = LineSDK/LineSDK/Crypto/CryptoError.swift; sourceTree = "<group>"; };
+		AD7F6100B51F09D02A5467F11BB8E95E /* Channel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Channel.swift; path = EasyLoginSDK/Classes/Channel.swift; sourceTree = "<group>"; };
+		AE120DED75E0AC7D1040CF0187B88C03 /* ActivateAuthorizedResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivateAuthorizedResponse.swift; path = EasyLoginSDK/Classes/ActivateAuthorizedResponse.swift; sourceTree = "<group>"; };
+		B1B71089E33B55D9604386A61A9F065B /* ProviderAccessToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProviderAccessToken.swift; path = EasyLoginSDK/Classes/ProviderAccessToken.swift; sourceTree = "<group>"; };
+		B2F7CDA98D9AC978610BBBAAEA883E5E /* LineSDKSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LineSDKSwift-umbrella.h"; sourceTree = "<group>"; };
+		B3FC677C3B3B1F25F2221BE7A6ADFEF5 /* EasyProfile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyProfile.swift; path = EasyLoginSDK/Classes/EasyProfile.swift; sourceTree = "<group>"; };
+		B45FB6E0EBBEDDC14935B5B6A5D96B3A /* EasyLoginSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EasyLoginSDK.modulemap; sourceTree = "<group>"; };
+		B4BB3799210B921B9B229B14DA9E65FC /* CryptoKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoKey.swift; path = LineSDK/LineSDK/Crypto/CryptoKey.swift; sourceTree = "<group>"; };
+		B4E8602A64F1570B233BC97758ED6EE9 /* GetApproversInFriendsRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetApproversInFriendsRequest.swift; path = LineSDK/LineSDK/Graph/Request/GetApproversInFriendsRequest.swift; sourceTree = "<group>"; };
+		B555F78133B1E7A4ADE14D6876E60DBA /* LoginProcess.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginProcess.swift; path = LineSDK/LineSDK/Login/LoginProcess.swift; sourceTree = "<group>"; };
+		B718CFFE5949A7C8336544CCDFF0F44F /* EasyAuthToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyAuthToken.swift; path = EasyLoginSDK/Classes/EasyAuthToken.swift; sourceTree = "<group>"; };
+		BC8444B2F759E98BBD96AA1E841BCC6D /* AbstractAuthResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AbstractAuthResult.swift; path = EasyLoginSDK/Classes/AbstractAuthResult.swift; sourceTree = "<group>"; };
+		C08A4E41231F55ED840FD65C3A1A2DC4 /* JWT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JWT.swift; path = LineSDK/LineSDK/Crypto/JWT/JWT.swift; sourceTree = "<group>"; };
+		C11D3A6B5BB88AE2F89C25BC3CEABD19 /* FlexMessageContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexMessageContainer.swift; path = LineSDK/LineSDK/Messaging/Model/Flex/Container/FlexMessageContainer.swift; sourceTree = "<group>"; };
+		C126C761055B9505B59BC8FC2459C7D5 /* AccessToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessToken.swift; path = LineSDK/LineSDK/Login/Model/AccessToken.swift; sourceTree = "<group>"; };
+		C1D8E0180A6BC3C4AEE5C5607981CEC2 /* EasyLoginSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyLoginSDK-umbrella.h"; sourceTree = "<group>"; };
+		C7A5815ADB17CDC9D4586D4EDFFFDB95 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = LineSDK/LineSDK/Networking/Client/Session.swift; sourceTree = "<group>"; };
+		CA2BE6C71F1AE8D700C49A68F1AF8B9C /* HexColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColor.swift; path = LineSDK/LineSDK/Networking/Model/CustomizeCoding/HexColor.swift; sourceTree = "<group>"; };
+		CBE1C2AA65F16D918FD00988557A03B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD86682744DD504C611E1FECAFACE0B1 /* LoginConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginConfiguration.swift; path = LineSDK/LineSDK/Login/LoginConfiguration.swift; sourceTree = "<group>"; };
+		CD88078D5D52A2BC162566E5A3E5D558 /* LineSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LineSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE99DF74CCE0075ED57757B76821415E /* TextMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextMessage.swift; path = LineSDK/LineSDK/Messaging/Model/TextMessage.swift; sourceTree = "<group>"; };
+		CF05D8F5A0DD1CA80D9CD59D13CF1141 /* EasyLoginImpl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyLoginImpl.swift; path = EasyLoginSDK/Classes/EasyLoginImpl.swift; sourceTree = "<group>"; };
+		D073792692597F42C5C9A864532DB4E1 /* LineSDKSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LineSDKSwift-dummy.m"; sourceTree = "<group>"; };
+		D22245B2BD5368680FF3B76558C78714 /* ProviderIdToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProviderIdToken.swift; path = EasyLoginSDK/Classes/ProviderIdToken.swift; sourceTree = "<group>"; };
+		D5F67F1BA19B3F8721F223B90E0C7B1B /* AccessTokenVerifyResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessTokenVerifyResult.swift; path = LineSDK/LineSDK/Login/Model/AccessTokenVerifyResult.swift; sourceTree = "<group>"; };
+		D76CC6033EF14E02F07AD915725BA7D5 /* GetApproversInGroupRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetApproversInGroupRequest.swift; path = LineSDK/LineSDK/Graph/Request/GetApproversInGroupRequest.swift; sourceTree = "<group>"; };
+		D9FA575E0B90551B98B806B167658D2F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DA8050B8C218D71C9257A242503F21AF /* LineAuthHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineAuthHandler.swift; path = EasyLoginSDK/Classes/LineAuthHandler.swift; sourceTree = "<group>"; };
+		DACB4A28367D0B4C9D1C46273119A6BE /* PostMultisendMessagesRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostMultisendMessagesRequest.swift; path = LineSDK/LineSDK/Messaging/Request/PostMultisendMessagesRequest.swift; sourceTree = "<group>"; };
+		DBE8036DEC1C2E058F13A1B75D8E8AB7 /* Pods-EasyLoginSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyLoginSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DC77FD2A47F17E77E17CC2BBD71F7315 /* FlexSeparatorComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexSeparatorComponent.swift; path = LineSDK/LineSDK/Messaging/Model/Flex/Component/FlexSeparatorComponent.swift; sourceTree = "<group>"; };
+		DC9431DB49595A9D04849BB69A92048B /* Pods-EasyLoginSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyLoginSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DDB497D0A1F40072D5717FF87CF33226 /* Pods-EasyLoginSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyLoginSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E45F229201A0DED5B84E42A0BA867CB1 /* LineSDKSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LineSDKSwift.modulemap; sourceTree = "<group>"; };
+		E67140B309E530248863738A03A2C151 /* PostExchangeTokenRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostExchangeTokenRequest.swift; path = LineSDK/LineSDK/Login/Request/PostExchangeTokenRequest.swift; sourceTree = "<group>"; };
+		E88C6DD08BF771C794B5C963FEA53880 /* NotificationToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationToken.swift; path = LineSDK/LineSDK/Utils/NotificationToken.swift; sourceTree = "<group>"; };
+		EC2285DEA92CDCF515BDC48E8D6070BE /* GetJWKSetRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetJWKSetRequest.swift; path = LineSDK/LineSDK/Crypto/GetJWKSetRequest.swift; sourceTree = "<group>"; };
+		F2122A82CABACFC864EB00696FD581FD /* Pods-EasyLoginSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyLoginSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		F3634801C3CE64956C88A70A09F29F89 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B0A557C73ED6E2F1006805420845DD /* ImageMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageMessage.swift; path = LineSDK/LineSDK/Messaging/Model/ImageMessage.swift; sourceTree = "<group>"; };
+		F4D3F635934F453C2153627A2CD548BE /* AuthListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthListener.swift; path = EasyLoginSDK/Classes/AuthListener.swift; sourceTree = "<group>"; };
+		F55B88CB5212EC18C905CE73C18A1C46 /* Pods_EasyLoginSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EasyLoginSDK_Example.framework; path = "Pods-EasyLoginSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F895537983DD881556D55E198F1479C8 /* FlexCarouselContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexCarouselContainer.swift; path = LineSDK/LineSDK/Messaging/Model/Flex/Container/FlexCarouselContainer.swift; sourceTree = "<group>"; };
+		FBDB1E0C42B444955E39B603213FF8D9 /* FlexMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlexMessage.swift; path = LineSDK/LineSDK/Messaging/Model/FlexMessage.swift; sourceTree = "<group>"; };
+		FDA560948962E3563967085B96AEFBB1 /* GetVerifyTokenRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetVerifyTokenRequest.swift; path = LineSDK/LineSDK/Login/Request/GetVerifyTokenRequest.swift; sourceTree = "<group>"; };
+		FE1D9B5BE7AF5FFCFF92E2F2C2B2CFF1 /* TemplateImageCarouselPayload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TemplateImageCarouselPayload.swift; path = LineSDK/LineSDK/Messaging/Model/Template/Payloads/TemplateImageCarouselPayload.swift; sourceTree = "<group>"; };
+		FE3828D63D8D874EE8C5CCC4E908D00C /* Pods-EasyLoginSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EasyLoginSDK_Example.modulemap"; sourceTree = "<group>"; };
+		FE3DA2C81079403276AD40BFA12A922C /* LineSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LineSDK.framework; path = LineSDKSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF94340B903A9498DF8DED06634B8521 /* LineSDKSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LineSDKSwift-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46A8B72A039A04D18BB0424E3F2093E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43EE2E88331059172DF96D8DDA3ADE25 /* Foundation.framework in Frameworks */,
+				173A325A8F47300C8C5C993253B5FE12 /* LineSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902D1687D51C9A6E4BFD5C5C3748D276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A669DB1A4323E753540295634871D83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F3BB55410779A718D022EDC3EC2AF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA2C4E243F35DCB2087C3380A9B62E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45E0A6C163862649299E8CAE2B40171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD0F5A95F244BB812F0E663D529738E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A57FEC2D375042F0409FD7F92182B9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4718C31D056C027D4FB110B3A0F3247 /* LineSDKSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1021CC10896F63717175A079A02DED6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD88078D5D52A2BC162566E5A3E5D558 /* LineSDK.framework */,
+				8A2C578645155CF8A805A5384A4F36FC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20CE53B0C7461B12F1779F28A90F347C /* Pods-EasyLoginSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F3634801C3CE64956C88A70A09F29F89 /* Info.plist */,
+				7C1309AB6A337084567A6E3DDA9B45C8 /* Pods-EasyLoginSDK_Tests.modulemap */,
+				DC9431DB49595A9D04849BB69A92048B /* Pods-EasyLoginSDK_Tests-acknowledgements.markdown */,
+				92BCE7B2DA3276CE0C6FE763EFEE7182 /* Pods-EasyLoginSDK_Tests-acknowledgements.plist */,
+				74DE0EC0E864C40AE8F641525C243F25 /* Pods-EasyLoginSDK_Tests-dummy.m */,
+				051B5BFDDE0F4DC45911957B0CA17B76 /* Pods-EasyLoginSDK_Tests-frameworks.sh */,
+				8FAA90BD77493C83A5AD3A31C530F777 /* Pods-EasyLoginSDK_Tests-resources.sh */,
+				1713031808412B38BD14FDAB21EFD725 /* Pods-EasyLoginSDK_Tests-umbrella.h */,
+				492A82AC1076C8E67ACA1213A2EC7BC5 /* Pods-EasyLoginSDK_Tests.debug.xcconfig */,
+				4DD137EEE40BE75BECEBED11F2F5DFB1 /* Pods-EasyLoginSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-EasyLoginSDK_Tests";
+			path = "Target Support Files/Pods-EasyLoginSDK_Tests";
+			sourceTree = "<group>";
+		};
+		3CE0DBD4D5614CCB56D7E306DF85311E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48A360121D1D3727D6014E82553D3A0A /* Info.plist */,
+				E45F229201A0DED5B84E42A0BA867CB1 /* LineSDKSwift.modulemap */,
+				195AC3221E09273FD7ED710343810746 /* LineSDKSwift.xcconfig */,
+				D073792692597F42C5C9A864532DB4E1 /* LineSDKSwift-dummy.m */,
+				FF94340B903A9498DF8DED06634B8521 /* LineSDKSwift-prefix.pch */,
+				B2F7CDA98D9AC978610BBBAAEA883E5E /* LineSDKSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LineSDKSwift";
+			sourceTree = "<group>";
+		};
+		401C1CF0376FBA2B79010D6977E34260 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9BEDD19E689991A21548EFAE8640DF8E /* Assets.xcassets */,
+				6EF0A85D12A7EC6B8EF1AD4508D85D09 /* Resource.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		47E0CC43165D0CCBC268E7A7756D2747 /* Pods-EasyLoginSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9BFD72BD0F9EFB198FB814E3ED679256 /* Info.plist */,
+				FE3828D63D8D874EE8C5CCC4E908D00C /* Pods-EasyLoginSDK_Example.modulemap */,
+				1EF7034DDFD0C6DF9A94C7F5395280E9 /* Pods-EasyLoginSDK_Example-acknowledgements.markdown */,
+				7D6B9F6200E87804F28F415F1AE86A4D /* Pods-EasyLoginSDK_Example-acknowledgements.plist */,
+				8F1BFD5E1680E6E31B5A58590500C03F /* Pods-EasyLoginSDK_Example-dummy.m */,
+				A4F980F42E1957B5F91B398C40698782 /* Pods-EasyLoginSDK_Example-frameworks.sh */,
+				959C4A8CDCA239CFFFD5253FBC56E8E1 /* Pods-EasyLoginSDK_Example-resources.sh */,
+				F2122A82CABACFC864EB00696FD581FD /* Pods-EasyLoginSDK_Example-umbrella.h */,
+				DDB497D0A1F40072D5717FF87CF33226 /* Pods-EasyLoginSDK_Example.debug.xcconfig */,
+				DBE8036DEC1C2E058F13A1B75D8E8AB7 /* Pods-EasyLoginSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-EasyLoginSDK_Example";
+			path = "Target Support Files/Pods-EasyLoginSDK_Example";
+			sourceTree = "<group>";
+		};
+		6F96950A5CB343FFA4CC43EDBAC1CC0D /* EasyLoginSDK */ = {
+			isa = PBXGroup;
+			children = (
+				505CBCF957D5963732F5D4E07DC25795 /* AbstractAuthHandler.swift */,
+				BC8444B2F759E98BBD96AA1E841BCC6D /* AbstractAuthResult.swift */,
+				AE120DED75E0AC7D1040CF0187B88C03 /* ActivateAuthorizedResponse.swift */,
+				459D203E96C0DB63F2DB77F9F5D48652 /* ActiveAuthorizeProfileRequest.swift */,
+				9D1BCDC971680C682FC7BC0532BB6788 /* API.swift */,
+				447DDD937224CBA44659B5259B2FE157 /* AuthDelegate.swift */,
+				F4D3F635934F453C2153627A2CD548BE /* AuthListener.swift */,
+				44170890ABB156787604A8DA6E37DB48 /* AuthorizeRequest.swift */,
+				1FCA1B06C2E00B4BE166BA94D167F987 /* AuthResult.swift */,
+				75F623F7E9326920832E53CECC3C00C8 /* AuthSession.swift */,
+				AD7F6100B51F09D02A5467F11BB8E95E /* Channel.swift */,
+				1BD176FE0F2E9421CB6CA326CD62364D /* CodeVerifier.swift */,
+				83FFB28E6E97AFB98E390550A15D8273 /* Config.swift */,
+				5420F1A45B43DD348DD76A298634ED6A /* Date+Ext.swift */,
+				4AF18260E4716E51E2BAF84A5AA5F6F6 /* EasyAPI.swift */,
+				B718CFFE5949A7C8336544CCDFF0F44F /* EasyAuthToken.swift */,
+				4703298B0305E515A9563DC828B353D5 /* EasyLogin.swift */,
+				6289747DB9D246096270D0910A1DD94D /* EasyLoginConfig.swift */,
+				5ED23F0D4A465493619CEDD3F658DF85 /* EasyLoginError.swift */,
+				CF05D8F5A0DD1CA80D9CD59D13CF1141 /* EasyLoginImpl.swift */,
+				79CB51E9585824B8ECA089B4A137BB24 /* EasyLoginSDK.h */,
+				B3FC677C3B3B1F25F2221BE7A6ADFEF5 /* EasyProfile.swift */,
+				4B1E527B00490D02ECFFE1EFEA6E988A /* GetAuthorizeProfileRequest.swift */,
+				498B14C90F994CB68E027187FB19FB1B /* InitAuthResponse.swift */,
+				4F75FA4977CE7D33647CFD5CD790D351 /* LineAccessToken.swift */,
+				DA8050B8C218D71C9257A242503F21AF /* LineAuthHandler.swift */,
+				46DEACEC149B2AB1355FD31841AB3E93 /* LineAuthResult.swift */,
+				88B877882FFA34188C6FAF70FAD87CA6 /* LineIdToken.swift */,
+				B1B71089E33B55D9604386A61A9F065B /* ProviderAccessToken.swift */,
+				186DA566937838179D7FB2AFF8058D55 /* ProviderAuthHandler.swift */,
+				D22245B2BD5368680FF3B76558C78714 /* ProviderIdToken.swift */,
+				0B11F5C4E5AC3BF019B8101CAB96D157 /* Result.swift */,
+				7E7F80F87C3A3547A8F877D9DF0716E6 /* ServiceModel.swift */,
+				08EFDA17020A7E50DE2FB751EBEC87E3 /* URLSession+Ext.swift */,
+				5662897A0849F1BFF3F77C63A33DBC71 /* VerifyTokenRequest.swift */,
+				F1F25114024AA2365417909AD41A136A /* Pod */,
+				95C054D08F34C0CA917E16D5033B0338 /* Support Files */,
+			);
+			name = EasyLoginSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C4FC2012B4039D25B718F85D45E7A04E /* Development Pods */,
+				1021CC10896F63717175A079A02DED6B /* Frameworks */,
+				0A57FEC2D375042F0409FD7F92182B9E /* Pods */,
+				FD47D1A53DDACDFF0B3F2776A4B6AFA2 /* Products */,
+				D20490728C350072856EAC0F4A20D671 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A2C578645155CF8A805A5384A4F36FC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8C0D52CC3B2DAF5B22EF609DB6C07E53 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		95C054D08F34C0CA917E16D5033B0338 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B45FB6E0EBBEDDC14935B5B6A5D96B3A /* EasyLoginSDK.modulemap */,
+				0F380B68F11FF6CFC568F93C29FF6D1F /* EasyLoginSDK.xcconfig */,
+				7466A8E50987B36C15F9CCEBAC2CDF8A /* EasyLoginSDK-dummy.m */,
+				5F775E29276EBA86C4B5175F2996BB4B /* EasyLoginSDK-prefix.pch */,
+				C1D8E0180A6BC3C4AEE5C5607981CEC2 /* EasyLoginSDK-umbrella.h */,
+				CBE1C2AA65F16D918FD00988557A03B0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EasyLoginSDK";
+			sourceTree = "<group>";
+		};
+		A4718C31D056C027D4FB110B3A0F3247 /* LineSDKSwift */ = {
+			isa = PBXGroup;
+			children = (
+				D3EC4A000972C4D03C9FFDFFF6CB5248 /* Core */,
+				3CE0DBD4D5614CCB56D7E306DF85311E /* Support Files */,
+			);
+			name = LineSDKSwift;
+			path = LineSDKSwift;
+			sourceTree = "<group>";
+		};
+		C4FC2012B4039D25B718F85D45E7A04E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F96950A5CB343FFA4CC43EDBAC1CC0D /* EasyLoginSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D20490728C350072856EAC0F4A20D671 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47E0CC43165D0CCBC268E7A7756D2747 /* Pods-EasyLoginSDK_Example */,
+				20CE53B0C7461B12F1779F28A90F347C /* Pods-EasyLoginSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D3EC4A000972C4D03C9FFDFFF6CB5248 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C126C761055B9505B59BC8FC2459C7D5 /* AccessToken.swift */,
+				1A1F8DC42B01315FD3B019D1DA4099C5 /* AccessTokenStore.swift */,
+				D5F67F1BA19B3F8721F223B90E0C7B1B /* AccessTokenVerifyResult.swift */,
+				A021E6350738E95D21452350B28C065C /* API.swift */,
+				6A0F4CC01BA9FAA01F6A43A3B90A0322 /* API+Internal.swift */,
+				2C844673A3B69B65E9676ED1D3BEC8B8 /* APIError.swift */,
+				6D975AFD479151C0AF2C335341D4D18E /* AudioMessage.swift */,
+				9BD6C14E4B2530EDFC3A59FA5F2BCF3B /* CallbackQueue.swift */,
+				47D49026B359CC3B5859FD5395D38E96 /* CodingExtension.swift */,
+				9C60115DBCB8BAC271D0D4AC91EFC5EC /* Constant.swift */,
+				1FD4C69B0110AE9E71E5C5F2DE3C1CD4 /* CryptoAlgorithm.swift */,
+				686B6939F73A58B3D98DF3F82C8DC619 /* CryptoData.swift */,
+				ABC2B980430E9871D20F95D172263098 /* CryptoError.swift */,
+				763E731847CE777D8C20B129EB133899 /* CryptoHelpers.swift */,
+				B4BB3799210B921B9B229B14DA9E65FC /* CryptoKey.swift */,
+				71DB1D0281194BBC02A9A550768274EE /* Delegate.swift */,
+				68FE00BDA0EA919A989A47F278FC83AC /* ECDSA.swift */,
+				654290F0958ABFA6D95F7462E43354CD /* FlexBlockStyle.swift */,
+				1C55F1806C6557589114C31DABA2018F /* FlexBoxComponent.swift */,
+				5303B066FAB02A892CD56E774BF0F0CF /* FlexBubbleContainer.swift */,
+				65224E7E3F116827FBA3CDF4B5B991D6 /* FlexButtonComponent.swift */,
+				F895537983DD881556D55E198F1479C8 /* FlexCarouselContainer.swift */,
+				6934B27B211B073C65F3E99248750BBE /* FlexFillerComponent.swift */,
+				12CDA0207BFC4795CA066B4D5E62B4F7 /* FlexIconComponent.swift */,
+				58B7ECA60C97034E6F07FDD8F3E2BE4E /* FlexImageComponent.swift */,
+				FBDB1E0C42B444955E39B603213FF8D9 /* FlexMessage.swift */,
+				70CBC1901EF3903E8C484796DB93F0E8 /* FlexMessageComponent.swift */,
+				C11D3A6B5BB88AE2F89C25BC3CEABD19 /* FlexMessageContainer.swift */,
+				95A2ECE9892F7D499C2125A15E0D4F96 /* FlexMessageProperties.swift */,
+				DC77FD2A47F17E77E17CC2BBD71F7315 /* FlexSeparatorComponent.swift */,
+				1D9522A4B6B4B05ABEA6EECC61AE85F6 /* FlexSpacerComponent.swift */,
+				0A5C579F0B97E40DE661F40B2E089846 /* FlexTextComponent.swift */,
+				B4E8602A64F1570B233BC97758ED6EE9 /* GetApproversInFriendsRequest.swift */,
+				D76CC6033EF14E02F07AD915725BA7D5 /* GetApproversInGroupRequest.swift */,
+				2ECE9B1D6E3F815A4A81484C6DEBB5A1 /* GetBotFriendshipStatus.swift */,
+				3876470C34C916C724602C26B727EC6E /* GetDiscoveryDocumentRequest.swift */,
+				A47399DE92A1A5975EBFC3B548D7A387 /* GetFriendsRequest.swift */,
+				8311F2F1D237CF65A906F0DD0A012884 /* GetGroupsRequest.swift */,
+				EC2285DEA92CDCF515BDC48E8D6070BE /* GetJWKSetRequest.swift */,
+				14B9C75E4342A918C6621F28E2E4A09F /* GetUserProfileRequest.swift */,
+				FDA560948962E3563967085B96AEFBB1 /* GetVerifyTokenRequest.swift */,
+				95F1A0107C8E162C9112212CF1B1900D /* Group.swift */,
+				2164F99CFC9047EC2BE0EC9F71FA095A /* Helpers.swift */,
+				CA2BE6C71F1AE8D700C49A68F1AF8B9C /* HexColor.swift */,
+				F3B0A557C73ED6E2F1006805420845DD /* ImageMessage.swift */,
+				AA8ED6D1917E17128ABA24EBE5CC0982 /* JWA.swift */,
+				76AF76E194C683DEB316F05575A43E90 /* JWK.swift */,
+				8FEF86FF8B930DED46449DB0B4188DE5 /* JWKSet.swift */,
+				C08A4E41231F55ED840FD65C3A1A2DC4 /* JWT.swift */,
+				05657AFA483169D26D3D4DC7E1456F6A /* JWTCoder.swift */,
+				91D4B54997B444D5232F484A3B618B17 /* JWTHelpers.swift */,
+				311D49AFC0F5E12DB12A6A03C7A8BF61 /* KeychainStore.swift */,
+				50B10A95B86990246707289936694B54 /* LineSDK.h */,
+				3278D4813E340AD3B8727B58B10DF2F2 /* LineSDKError.swift */,
+				A2F2A2839A676D7FE4854079D91243B9 /* LocationMessage.swift */,
+				5279AD392694FFC47AC028755A761FBB /* LoginButton.swift */,
+				CD86682744DD504C611E1FECAFACE0B1 /* LoginConfiguration.swift */,
+				0C10415293CF07D9268C6BA19856055D /* LoginManager.swift */,
+				62DF73B3CD59235077E1374452451F33 /* LoginManagerOptions.swift */,
+				5D05E0AA06B9DA79F3472E759BFA7CD4 /* LoginPermission.swift */,
+				B555F78133B1E7A4ADE14D6876E60DBA /* LoginProcess.swift */,
+				6BAC4567837743E3DD75CC5AD89064C4 /* LoginProcessURLResponse.swift */,
+				9FE4CA4AB06746F2D1A80F254D874E09 /* LoginResult.swift */,
+				53FC64F78360B15F34C6326C03668AFC /* Message.swift */,
+				4072BB5E7686F63820F532F7115996E2 /* MessageAction.swift */,
+				992E86E24A597B4EABF6A5C7A06D2831 /* MessageProtocols.swift */,
+				AAA1ED83DF6E3F1C5CFA2D9C2CED462C /* MessageSender.swift */,
+				E88C6DD08BF771C794B5C963FEA53880 /* NotificationToken.swift */,
+				2E9596AA4BC9C6DFC23986D2FC54D551 /* OneTimePassword.swift */,
+				944D448D576F0185EAAD5624770D45A9 /* ParametersAdapter.swift */,
+				E67140B309E530248863738A03A2C151 /* PostExchangeTokenRequest.swift */,
+				DACB4A28367D0B4C9D1C46273119A6BE /* PostMultisendMessagesRequest.swift */,
+				A1456A2785C2FE69E573ED65A812AAEB /* PostOTPRequest.swift */,
+				053095CECA0B55739F59B4B3293BF467 /* PostRefreshTokenRequest.swift */,
+				54FF084159484154DA56FF54196F1103 /* PostRevokeTokenRequest.swift */,
+				47C507C133707D0DF35B4221BADAF3DF /* PostSendMessagesRequest.swift */,
+				8775A5A1DCBED29149F04BF02A38D924 /* Request.swift */,
+				446F3093858B6E58CA20EE5E69D57B78 /* RequestAdapter.swift */,
+				8A3D8E063CA054D4B243582BA3A2D3C7 /* ResponsePipeline.swift */,
+				9222EEF5B5BF0A40CFE5C85AC0D4479B /* Result.swift */,
+				0EAFAC6804E49C4086F192A11D7398CF /* ResultUtils.swift */,
+				7008A7E640822EFCA1F6F045AD9EFD76 /* RSA.swift */,
+				C7A5815ADB17CDC9D4586D4EDFFFDB95 /* Session.swift */,
+				30AF67CFA48C0AF6BD27634F39AAF734 /* TemplateButtonsPayload.swift */,
+				9E75C21985809A3B63DBFA901C370E89 /* TemplateCarouselPayload.swift */,
+				1478DAAC7502DE2EB9956F2D8D01E4C9 /* TemplateConfirmPayload.swift */,
+				FE1D9B5BE7AF5FFCFF92E2F2C2B2CFF1 /* TemplateImageCarouselPayload.swift */,
+				23D44C8E2D870DDFBE5498E2ACFEA83B /* TemplateMessage.swift */,
+				A77679F43E5C2CA137AF3307B1863BCA /* TemplateMessagePayload.swift */,
+				26072C23C8A44449EF226FA3C45D4A6F /* TemplateMessageProperties.swift */,
+				CE99DF74CCE0075ED57757B76821415E /* TextMessage.swift */,
+				26A090C521F50F9D837150AE191D520E /* Unit.swift */,
+				2C8ABE2AD8B5BEBD359F32FE88B86DC3 /* URLs.swift */,
+				66B4E925965E0F266C08475480E78B4A /* User.swift */,
+				4760E47103E344A9F28DF37FB4D588D8 /* UserProfile.swift */,
+				7CA867D11DB3FC9B86DEBF4F184278EC /* VideoMessage.swift */,
+				401C1CF0376FBA2B79010D6977E34260 /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F1F25114024AA2365417909AD41A136A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0403296A0F52253FD8C3A5FDF4A138EE /* EasyLoginSDK.podspec */,
+				D9FA575E0B90551B98B806B167658D2F /* LICENSE */,
+				0A308142BD570927E04F8890D7291D87 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FD47D1A53DDACDFF0B3F2776A4B6AFA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181C81236414DFB2407F437377ECDD29 /* EasyLoginSDK.framework */,
+				FE3DA2C81079403276AD40BFA12A922C /* LineSDK.framework */,
+				F55B88CB5212EC18C905CE73C18A1C46 /* Pods_EasyLoginSDK_Example.framework */,
+				8F3228C767132278985DAAE0EB4BEBC3 /* Pods_EasyLoginSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C47DA3731D1ACA23886660409EF4628 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2498DC64F995B50AADC15C6CB5A0AE9 /* Pods-EasyLoginSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BB54D663277A7D30DCFA705CB608335 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5175577B219692F796D870666EF6D3C3 /* Pods-EasyLoginSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5CEA9A9683296B013245455AE8208E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E70DD48B2168415B762982C05DD6DD /* EasyLoginSDK-umbrella.h in Headers */,
+				F6690E0B15004FE728FDD183B2A46421 /* EasyLoginSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C8DF5748E181A561EBBAC1B6A9C5DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A3029D28B83CC9F909F2485ADE3EBC /* LineSDK.h in Headers */,
+				DE1E0B729ED356C0B74201F609887F9F /* LineSDKSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1620BBD7151C7BE6372F660104732A31 /* Pods-EasyLoginSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8CCCA758ED189A7D1790E84B62240C3 /* Build configuration list for PBXNativeTarget "Pods-EasyLoginSDK_Example" */;
+			buildPhases = (
+				51D4EFF716256DA948E39B2FA29CE01A /* Sources */,
+				A45E0A6C163862649299E8CAE2B40171 /* Frameworks */,
+				1BB54D663277A7D30DCFA705CB608335 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8312AB38D37CD8859C45A61372F15A44 /* PBXTargetDependency */,
+				BA2D2CBEE222D2CB02C63A31602122BB /* PBXTargetDependency */,
+			);
+			name = "Pods-EasyLoginSDK_Example";
+			productName = "Pods-EasyLoginSDK_Example";
+			productReference = F55B88CB5212EC18C905CE73C18A1C46 /* Pods_EasyLoginSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		564C18F2A81ED61531A32DB4FE240D08 /* LineSDKSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E026E15D3A30978A76FC7411A4A35C3 /* Build configuration list for PBXNativeTarget "LineSDKSwift" */;
+			buildPhases = (
+				F2229A4BAC3E01ED9258F03695C83DA3 /* Sources */,
+				9F3BB55410779A718D022EDC3EC2AF40 /* Frameworks */,
+				E1C8DF5748E181A561EBBAC1B6A9C5DC /* Headers */,
+				4DB760EFE0A42F567E79291B3F1677AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LineSDKSwift;
+			productName = LineSDKSwift;
+			productReference = FE3DA2C81079403276AD40BFA12A922C /* LineSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		874A59C922A2F421914FEB4359E76AAA /* Pods-EasyLoginSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B5BEBDAA06E41A9CBF312471CACC06 /* Build configuration list for PBXNativeTarget "Pods-EasyLoginSDK_Tests" */;
+			buildPhases = (
+				B802B9291D12DEF54B7D448B06BDA198 /* Sources */,
+				902D1687D51C9A6E4BFD5C5C3748D276 /* Frameworks */,
+				0C47DA3731D1ACA23886660409EF4628 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF43D58D9FFC72A061D7E542FEF1A731 /* PBXTargetDependency */,
+			);
+			name = "Pods-EasyLoginSDK_Tests";
+			productName = "Pods-EasyLoginSDK_Tests";
+			productReference = 8F3228C767132278985DAAE0EB4BEBC3 /* Pods_EasyLoginSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3AF19CC8311C9199C83AEFC3F3380B9 /* EasyLoginSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C09602DE7028BDA477A0CF651E2CA62 /* Build configuration list for PBXNativeTarget "EasyLoginSDK" */;
+			buildPhases = (
+				AB780DEFC89F077BFDBF5438DB196AAD /* Sources */,
+				46A8B72A039A04D18BB0424E3F2093E3 /* Frameworks */,
+				7A5CEA9A9683296B013245455AE8208E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFF4CAE6CA8D9F311D6D41B24F78F60A /* PBXTargetDependency */,
+			);
+			name = EasyLoginSDK;
+			productName = EasyLoginSDK;
+			productReference = 181C81236414DFB2407F437377ECDD29 /* EasyLoginSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FD47D1A53DDACDFF0B3F2776A4B6AFA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3AF19CC8311C9199C83AEFC3F3380B9 /* EasyLoginSDK */,
+				564C18F2A81ED61531A32DB4FE240D08 /* LineSDKSwift */,
+				1620BBD7151C7BE6372F660104732A31 /* Pods-EasyLoginSDK_Example */,
+				874A59C922A2F421914FEB4359E76AAA /* Pods-EasyLoginSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DB760EFE0A42F567E79291B3F1677AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0377A0A59F8B2B1A1354DC6DA2B22038 /* Assets.xcassets in Resources */,
+				D21D6523395897DB9013A931880560D4 /* Resource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51D4EFF716256DA948E39B2FA29CE01A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2255D59B67F0C7C8BFCDD39B437DA0D /* Pods-EasyLoginSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB780DEFC89F077BFDBF5438DB196AAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2E0EA86EAB10056B53CC8613ECCDAF /* AbstractAuthHandler.swift in Sources */,
+				2F0ECBC61C131792D403309DF1F9CFD0 /* AbstractAuthResult.swift in Sources */,
+				2B7808F7A895718E575D12B440D7CE03 /* ActivateAuthorizedResponse.swift in Sources */,
+				48BE22F6B27D11D594B7404587C11AB2 /* ActiveAuthorizeProfileRequest.swift in Sources */,
+				2A5C264A2D32F818F74C088C0B9897DE /* API.swift in Sources */,
+				214F96DC3502EE97D72A76884A7FD1C0 /* AuthDelegate.swift in Sources */,
+				B8E605033F4469EE34F0787D8F78B300 /* AuthListener.swift in Sources */,
+				D4CA2D0458FEC997B93D72094525E457 /* AuthorizeRequest.swift in Sources */,
+				04F255404AF3790763E1C90182B40AF5 /* AuthResult.swift in Sources */,
+				BFC31E0D839B2F0F328D5BB8DFBE05EB /* AuthSession.swift in Sources */,
+				CC0FC1CFC3ACC3893A0139F77734F156 /* Channel.swift in Sources */,
+				F47A155E8A24209EC8F3811E46D3AA63 /* CodeVerifier.swift in Sources */,
+				9A71F464E8DF1777320183BA2C9F84B3 /* Config.swift in Sources */,
+				DFE37CBADE7DB05E75F965097097B1BA /* Date+Ext.swift in Sources */,
+				FDB56EA24DF4F2847C31BD5DB7078385 /* EasyAPI.swift in Sources */,
+				D8A40080FF536AC71B628C73CF884BE2 /* EasyAuthToken.swift in Sources */,
+				0CEADFFF151B9FC2823C4D1654E6FE43 /* EasyLogin.swift in Sources */,
+				7144EB934428565ADB0E3A2E44CD5C08 /* EasyLoginConfig.swift in Sources */,
+				81215610DE0CAB815E213B5DFEFFC789 /* EasyLoginError.swift in Sources */,
+				3D814D2A766E530BBD74A455798D9961 /* EasyLoginImpl.swift in Sources */,
+				7C13F04276E383CC4D3EFCC424145DA2 /* EasyLoginSDK-dummy.m in Sources */,
+				AD295A32C4FBDF2E7800D7229616496C /* EasyProfile.swift in Sources */,
+				9227D4EF96CB825CD2B2F7B9F18654C5 /* GetAuthorizeProfileRequest.swift in Sources */,
+				44F8D039150C9D931EEA85A0DCCAF4A6 /* InitAuthResponse.swift in Sources */,
+				89E35706BE62A4A8CA0A51FE2CEB92FD /* LineAccessToken.swift in Sources */,
+				0EA1E5C6ACA89528707CF76BFC1A1B95 /* LineAuthHandler.swift in Sources */,
+				5722C2C1844FC7E7D686A729759DF62F /* LineAuthResult.swift in Sources */,
+				E48544FAFD45F2B4282322326EEE467F /* LineIdToken.swift in Sources */,
+				F7C17D5DD3EC34544E745154252AD639 /* ProviderAccessToken.swift in Sources */,
+				49EA4EEE48A382F28AC4BD3A3C6CFD63 /* ProviderAuthHandler.swift in Sources */,
+				F40604915F61BCB3FAD3074B2CE10D8A /* ProviderIdToken.swift in Sources */,
+				1E16198104855BAA8DEFDCFE0F32B0DE /* Result.swift in Sources */,
+				3B15149C6C5878921FEC4805D3D0BC17 /* ServiceModel.swift in Sources */,
+				8F911E8C69F608E955A32B272295874B /* URLSession+Ext.swift in Sources */,
+				591761A2D6E059D10F1B7CBF9544A737 /* VerifyTokenRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B802B9291D12DEF54B7D448B06BDA198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF52ACA2FDD508F562F8A36014161C1 /* Pods-EasyLoginSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2229A4BAC3E01ED9258F03695C83DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1F2B2421198A0793BD58AD52011F2D /* AccessToken.swift in Sources */,
+				D759ABF5E0DA9E13320DBD0DD09D4DA5 /* AccessTokenStore.swift in Sources */,
+				14F310490BAB30E44DFE0FD2A6313943 /* AccessTokenVerifyResult.swift in Sources */,
+				D62B1BFC49726C2B44ADB8BF7F2F0965 /* API+Internal.swift in Sources */,
+				23F1DB7BE0452058B9361FB81225CB64 /* API.swift in Sources */,
+				BE37AB5F38BAAB26BAF669EAC4A87822 /* APIError.swift in Sources */,
+				AC65D3646F220960F408D7E3D67A6E13 /* AudioMessage.swift in Sources */,
+				2384753EA020F9E9782C6198E71216CF /* CallbackQueue.swift in Sources */,
+				025EE445540093A6CBEF625D95E847F4 /* CodingExtension.swift in Sources */,
+				B280B102B65292A0E384482C2F1C4E49 /* Constant.swift in Sources */,
+				9F1792EAF96FD6E11BBF3FBB4D50E367 /* CryptoAlgorithm.swift in Sources */,
+				60284C3F6AD930126C18C1666410C18C /* CryptoData.swift in Sources */,
+				A6A251872288784760FDA27CF672903A /* CryptoError.swift in Sources */,
+				9D17218AFDC45317C16298554D8AA49C /* CryptoHelpers.swift in Sources */,
+				8C8C2A182C29DED5C9C220E920003B07 /* CryptoKey.swift in Sources */,
+				134A7ADB3499F2D84BCAC28ECD9EB5ED /* Delegate.swift in Sources */,
+				572108614048D5893DA287A065CC7152 /* ECDSA.swift in Sources */,
+				FECAFB757CC69E8C55BD9AA31218CE91 /* FlexBlockStyle.swift in Sources */,
+				6F9B75FCC01B340A9C9E6088BAA49953 /* FlexBoxComponent.swift in Sources */,
+				A610CE5AC46FB590E009D8701B6E8BCF /* FlexBubbleContainer.swift in Sources */,
+				A6F5921E247726FE3DF10FF7A4997666 /* FlexButtonComponent.swift in Sources */,
+				32B3CD868545AD9DDB83F2F50BE15BA8 /* FlexCarouselContainer.swift in Sources */,
+				1E2B20309D97F13C23B873703D386C91 /* FlexFillerComponent.swift in Sources */,
+				FD40279C6F0F55F1977FDD3D04C3DB16 /* FlexIconComponent.swift in Sources */,
+				A7E558FFC928580E85F24B745E1D265F /* FlexImageComponent.swift in Sources */,
+				66DAECA8A91DA327220700C5758DFB62 /* FlexMessage.swift in Sources */,
+				9494F8DDA32F59C136F700E20081AF24 /* FlexMessageComponent.swift in Sources */,
+				5A08B12DC1B14CEAB30AC95199C35B06 /* FlexMessageContainer.swift in Sources */,
+				4A0B5CA9A1C061DB5673E865EE0F4926 /* FlexMessageProperties.swift in Sources */,
+				1EED3AD9328B3E2770F60EA966EBC155 /* FlexSeparatorComponent.swift in Sources */,
+				89B408E62B7F0D99C231A8627C5EB7D1 /* FlexSpacerComponent.swift in Sources */,
+				85E076F918F5FED5B6FE08C32784D3B7 /* FlexTextComponent.swift in Sources */,
+				856BE39548D1AB3BEDE28F516E7F98EE /* GetApproversInFriendsRequest.swift in Sources */,
+				080F26C5361F31C502AEB010F0EBF16F /* GetApproversInGroupRequest.swift in Sources */,
+				A704F372FB0C5E89D59AF1A0F3675BD1 /* GetBotFriendshipStatus.swift in Sources */,
+				4D4D91A06BD460B509BF46D672B23C5A /* GetDiscoveryDocumentRequest.swift in Sources */,
+				E252AF970FA0855F73922A4D2B4A8557 /* GetFriendsRequest.swift in Sources */,
+				ABAA645C62FD117096CB1279628C3319 /* GetGroupsRequest.swift in Sources */,
+				B685D2113D7798C8D88DECE57B953058 /* GetJWKSetRequest.swift in Sources */,
+				2438E1892780C173C2FF2B538955106D /* GetUserProfileRequest.swift in Sources */,
+				1BECCA8B9309A0381A7D9CF7AB719E88 /* GetVerifyTokenRequest.swift in Sources */,
+				661481B85B65D00912731B5063387220 /* Group.swift in Sources */,
+				B94E018C8BDEE81AA0E357E256ED63B3 /* Helpers.swift in Sources */,
+				F9D8E63CFFD6DC3F1FC32D528885280B /* HexColor.swift in Sources */,
+				20CA0B22BCD297CBAC3F037D75267467 /* ImageMessage.swift in Sources */,
+				7552E27488A6C6FC7BB6DD321D7527C9 /* JWA.swift in Sources */,
+				BCA8728A4444F29CB159E8B5B4755C22 /* JWK.swift in Sources */,
+				5AAAA72FC116BA802CCD5A8048E897BC /* JWKSet.swift in Sources */,
+				E43C3CD6B21E68776D46CC2AE439EE70 /* JWT.swift in Sources */,
+				B846574316B3E92DEC398B0DC0A8AE30 /* JWTCoder.swift in Sources */,
+				187360F7FF470E127C040DBDC5A21FA0 /* JWTHelpers.swift in Sources */,
+				DF4FF2274AFBFE53DECCA37ABC6B0392 /* KeychainStore.swift in Sources */,
+				45D86777458A1BFF357553FFB1E6A0D1 /* LineSDKError.swift in Sources */,
+				17E6A3C6E78452A0D0119CFF15C1F758 /* LineSDKSwift-dummy.m in Sources */,
+				1E0E5D7A315A92B62DD7C560A4D457FC /* LocationMessage.swift in Sources */,
+				9DE2EA8FA28DA96F716EC16CF5AE1E93 /* LoginButton.swift in Sources */,
+				BAC533B7248931DC9E63CB03ACB6D0D1 /* LoginConfiguration.swift in Sources */,
+				BC1C1B6C0F4FF18A09833F40FDAA93D0 /* LoginManager.swift in Sources */,
+				9105A8DE2A24399B069A55765FE78682 /* LoginManagerOptions.swift in Sources */,
+				3529C6EAFB6C6EE6BDFAB5012D571380 /* LoginPermission.swift in Sources */,
+				6DF8103D905D5E63FCE02106F7399C32 /* LoginProcess.swift in Sources */,
+				C8F367EBF66E34BBF6802C495F7159F0 /* LoginProcessURLResponse.swift in Sources */,
+				AC65086E7053F0948C7BB1AFC2AB404A /* LoginResult.swift in Sources */,
+				A6D9F52DA56BDC4C995C9C4CC1CB2FBE /* Message.swift in Sources */,
+				B11AC701397DA6E55AF6BD3E0B690E31 /* MessageAction.swift in Sources */,
+				53DC4E2668463AE539B5119B08F004E4 /* MessageProtocols.swift in Sources */,
+				D4CF629A2095AC2CF843409797D7B1CF /* MessageSender.swift in Sources */,
+				29BB84FFA1A0F97F0CEFCA00F4DE6EE7 /* NotificationToken.swift in Sources */,
+				8FF85934EB67752E0C9A73728D2BFC78 /* OneTimePassword.swift in Sources */,
+				2BAACAA461BAD498D8A3CF3DBA20AC42 /* ParametersAdapter.swift in Sources */,
+				ECB722AD2286CF19D7EFC77F670B69C4 /* PostExchangeTokenRequest.swift in Sources */,
+				F7CA32E4266540DA982D68BFF465A741 /* PostMultisendMessagesRequest.swift in Sources */,
+				CA1DDCACEDB43A20E0B238FB1189A485 /* PostOTPRequest.swift in Sources */,
+				2FDA3E2A77731AEF7CC63D0CFCFBB56D /* PostRefreshTokenRequest.swift in Sources */,
+				00FA5F2F15EA1709C30908B91AF56A34 /* PostRevokeTokenRequest.swift in Sources */,
+				69B75711D6D2B709A71DB39F97F23158 /* PostSendMessagesRequest.swift in Sources */,
+				EF2A5F5F02366E7E277879C7066E606E /* Request.swift in Sources */,
+				442858A3CD8BA904E68FC326CDFC7A38 /* RequestAdapter.swift in Sources */,
+				7DFD096A86867DF5C9FB011B9E46736F /* ResponsePipeline.swift in Sources */,
+				194056C841BD0ECF73CB4126E83E1008 /* Result.swift in Sources */,
+				6269C162AB07982B46D4B0D4DA5CFC8E /* ResultUtils.swift in Sources */,
+				08011614F87B85A358374607999B044A /* RSA.swift in Sources */,
+				21DB1A3D686DFA5D8C406DF84004F1F8 /* Session.swift in Sources */,
+				C4282D4E6368D832F0FD04B419B634B6 /* TemplateButtonsPayload.swift in Sources */,
+				D6E47219DCD933FD2A31A54E364C709A /* TemplateCarouselPayload.swift in Sources */,
+				AC0577723906B47995BD7CE796DF0BCB /* TemplateConfirmPayload.swift in Sources */,
+				0CA0F9B531B32745C8B9740FAE995B5D /* TemplateImageCarouselPayload.swift in Sources */,
+				4575DB6AC08B3C1557E10E91200C791E /* TemplateMessage.swift in Sources */,
+				0E1A26DFF6A81041C76DD1E55CA5B38B /* TemplateMessagePayload.swift in Sources */,
+				116326BFD101D84F13F0F5B059536861 /* TemplateMessageProperties.swift in Sources */,
+				844AC88C80B09303C543ED4EE874F0A7 /* TextMessage.swift in Sources */,
+				D171AC1BEB697B242B7B17F3F1BBFD87 /* Unit.swift in Sources */,
+				C0B666C2775442EE67FC00DE02C09895 /* URLs.swift in Sources */,
+				50F94F966997D1A9207C1325E762CF08 /* User.swift in Sources */,
+				627F5B4FEF3E7774417DB65CA0C44197 /* UserProfile.swift in Sources */,
+				D9F2D28A392556E5DAB34F7404DBC534 /* VideoMessage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8312AB38D37CD8859C45A61372F15A44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyLoginSDK;
+			target = E3AF19CC8311C9199C83AEFC3F3380B9 /* EasyLoginSDK */;
+			targetProxy = 365C08A9CA7A4DE31E7BC488491BE88D /* PBXContainerItemProxy */;
+		};
+		BA2D2CBEE222D2CB02C63A31602122BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LineSDKSwift;
+			target = 564C18F2A81ED61531A32DB4FE240D08 /* LineSDKSwift */;
+			targetProxy = 190FBD61DBAC8B3A8EFE24EF9B6A0670 /* PBXContainerItemProxy */;
+		};
+		BF43D58D9FFC72A061D7E542FEF1A731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EasyLoginSDK_Example";
+			target = 1620BBD7151C7BE6372F660104732A31 /* Pods-EasyLoginSDK_Example */;
+			targetProxy = E82EA95B202AD7C253F3D08F355A6D0E /* PBXContainerItemProxy */;
+		};
+		CFF4CAE6CA8D9F311D6D41B24F78F60A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LineSDKSwift;
+			target = 564C18F2A81ED61531A32DB4FE240D08 /* LineSDKSwift */;
+			targetProxy = 52A03EF2DD3E65F086B12E130BF2AF8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04D40E03FA71DC9A2A7E729CCD1C145C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F380B68F11FF6CFC568F93C29FF6D1F /* EasyLoginSDK.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyLoginSDK/EasyLoginSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyLoginSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyLoginSDK/EasyLoginSDK.modulemap";
+				PRODUCT_MODULE_NAME = EasyLoginSDK;
+				PRODUCT_NAME = EasyLoginSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28E7E54EAEE1ACA91206E05D543A4F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 195AC3221E09273FD7ED710343810746 /* LineSDKSwift.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LineSDKSwift/LineSDKSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LineSDKSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LineSDKSwift/LineSDKSwift.modulemap";
+				PRODUCT_MODULE_NAME = LineSDK;
+				PRODUCT_NAME = LineSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5C61C17273012B4A776024E942B2FC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 492A82AC1076C8E67ACA1213A2EC7BC5 /* Pods-EasyLoginSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyLoginSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyLoginSDK_Tests/Pods-EasyLoginSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E867DFA06A06DEAB304D88DDA08714E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD137EEE40BE75BECEBED11F2F5DFB1 /* Pods-EasyLoginSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyLoginSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyLoginSDK_Tests/Pods-EasyLoginSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98456963EACE204B8FA1ECA5B5772247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 195AC3221E09273FD7ED710343810746 /* LineSDKSwift.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LineSDKSwift/LineSDKSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LineSDKSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LineSDKSwift/LineSDKSwift.modulemap";
+				PRODUCT_MODULE_NAME = LineSDK;
+				PRODUCT_NAME = LineSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD252D89F1069422C423D4F52D47AB1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDB497D0A1F40072D5717FF87CF33226 /* Pods-EasyLoginSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyLoginSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyLoginSDK_Example/Pods-EasyLoginSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3F009E0015C45C0A0F2716E6A26385F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE8036DEC1C2E058F13A1B75D8E8AB7 /* Pods-EasyLoginSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyLoginSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyLoginSDK_Example/Pods-EasyLoginSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA44AF9FE5D0B1559FD68B5A4C39BB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F380B68F11FF6CFC568F93C29FF6D1F /* EasyLoginSDK.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyLoginSDK/EasyLoginSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyLoginSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyLoginSDK/EasyLoginSDK.modulemap";
+				PRODUCT_MODULE_NAME = EasyLoginSDK;
+				PRODUCT_NAME = EasyLoginSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E026E15D3A30978A76FC7411A4A35C3 /* Build configuration list for PBXNativeTarget "LineSDKSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E7E54EAEE1ACA91206E05D543A4F49 /* Debug */,
+				98456963EACE204B8FA1ECA5B5772247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C09602DE7028BDA477A0CF651E2CA62 /* Build configuration list for PBXNativeTarget "EasyLoginSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D40E03FA71DC9A2A7E729CCD1C145C /* Debug */,
+				FA44AF9FE5D0B1559FD68B5A4C39BB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B5BEBDAA06E41A9CBF312471CACC06 /* Build configuration list for PBXNativeTarget "Pods-EasyLoginSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C61C17273012B4A776024E942B2FC07 /* Debug */,
+				7E867DFA06A06DEAB304D88DDA08714E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8CCCA758ED189A7D1790E84B62240C3 /* Build configuration list for PBXNativeTarget "Pods-EasyLoginSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD252D89F1069422C423D4F52D47AB1D /* Debug */,
+				E3F009E0015C45C0A0F2716E6A26385F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

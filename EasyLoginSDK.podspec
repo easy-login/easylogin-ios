@@ -1,15 +1,44 @@
+#
+# Be sure to run `pod lib lint EasyLoginSDK.podspec' to ensure this is a
+# valid spec before submitting.
+#
+# Any lines starting with a # are optional, but their use is encouraged
+# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
+#
+
 Pod::Spec.new do |s|
-  s.name = 'EasyLoginSDKTest'
-  s.version = '0.0.1'
-  s.license = 'MIT'
-  s.summary = 'Elegant HTTP Networking in Swift'
-  s.homepage = 'https://github.com/vinhdn/EasyLoginSDK'
-  s.social_media_url = 'http://twitter.com/vinhdn07'
-  s.authors = { 'Vinhdn' => 'vinhdn07@gmail.com' }
-  s.source = { :git => 'https://github.com/vinhdn/EasyLoginSDK.git', :tag => s.version }
-  s.documentation_url = 'https://github.com/vinhdn/EasyLoginSDK'
+  s.name             = 'EasyLoginSDK'
+  s.version          = '0.1.0'
+  s.summary          = 'EasyLoginSDK help login Social Network easy.'
+
+# This description is used to generate tags and improve search results.
+#   * Think: What does it do? Why did you write it? What is the focus?
+#   * Try to keep it short, snappy and to the point.
+#   * Write the description between the DESC delimiters below.
+#   * Finally, don't worry about the indent, CocoaPods strips it!
+
+  s.description      = "EasyLoginSDK help login Social Network easy"
+
+  s.homepage         = 'http://docs.easy-login.jp'
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'EasyLogin' => 'justin.namdo@gmail.com' }
+  s.source       = { :path => '.' }
+  # s.source           = { :git => 'https://github.com/Appsim/EasyLoginSDK.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Source/*.swift'
+  s.source_files = 'EasyLoginSDK/Classes/*.{h,m,swift}'
+  
+  s.swift_version = "4.0" 
+  
+  s.dependency 'LineSDKSwift'
+  # s.resource_bundles = {
+  #   'EasyLoginSDK' => ['EasyLoginSDK/Assets/*.png']
+  # }
+
+  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.frameworks = 'UIKit', 'MapKit'
+  # s.dependency 'AFNetworking', '~> 2.3'
 end

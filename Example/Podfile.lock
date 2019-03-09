@@ -1,0 +1,25 @@
+PODS:
+  - EasyLoginSDK (0.1.0):
+    - LineSDKSwift
+  - LineSDKSwift (5.1.0):
+    - LineSDKSwift/Core (= 5.1.0)
+  - LineSDKSwift/Core (5.1.0)
+
+DEPENDENCIES:
+  - EasyLoginSDK (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LineSDKSwift
+
+EXTERNAL SOURCES:
+  EasyLoginSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EasyLoginSDK: 890d06a87253e1729051de67677e34b2062bafda
+  LineSDKSwift: 2f14b4efa4399b4447f96864517ddad46993dce5
+
+PODFILE CHECKSUM: e975933de6d5484370bf117045df9cda1c2b36e1
+
+COCOAPODS: 1.5.3

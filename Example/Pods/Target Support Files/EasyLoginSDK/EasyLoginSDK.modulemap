@@ -1,0 +1,6 @@
+framework module EasyLoginSDK {
+  umbrella header "EasyLoginSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "EasyLoginSDK",
+  "version": "0.1.0",
+  "summary": "EasyLoginSDK help login Social Network easy.",
+  "description": "EasyLoginSDK help login Social Network easy",
+  "homepage": "http://docs.easy-login.jp",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "EasyLogin": "justin.namdo@gmail.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "EasyLoginSDK/Classes/*.{h,m,swift}",
+  "swift_version": "4.0",
+  "dependencies": {
+    "LineSDKSwift": [
+
+    ]
+  }
+}

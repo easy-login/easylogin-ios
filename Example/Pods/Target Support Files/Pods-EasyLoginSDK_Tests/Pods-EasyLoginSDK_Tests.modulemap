@@ -1,0 +1,6 @@
+framework module Pods_EasyLoginSDK_Tests {
+  umbrella header "Pods-EasyLoginSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
